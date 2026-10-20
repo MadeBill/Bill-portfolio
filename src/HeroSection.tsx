@@ -102,23 +102,36 @@ export default function HeroSection() {
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
                 4+ years of experience
               </strong>
-              {" across fintech, SaaS, edtech, gaming, and consumer apps."}
+              {" across "}
+              <span className="text-[#ff0000]">fintech</span>
+              {", SaaS, "}
+              <span className="text-[#ffff00]">edtech</span>
+              {", "}
+              <span className="text-[#00ff00]">gaming</span>
+              {", and "}
+              <span className="text-[#ff00ff]">consumer apps</span>
+              {". I design products users enjoy that solve problems, improve engagement, and drive business growth and revenue."}
             </p>
             <p>
-              {"I design products users enjoy that solve problems, improve engagement, and "}
-              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
-                drive business growth and revenue
+              {"At Ndloo, I led product development from concept to launch. The product was later acquired while having "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#ffff00]">
+                30k+ users.
               </strong>
-              {"."}
             </p>
             <p>
-              At Ndloo, I led product development from concept to launch. The product was later acquired.
-            </p>
-            <p>
-              {"My work has contributed to products reaching "}
-              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
-                30k+ users (Ndloo, Acquired), 6K+ users (Paxi), 20+ hospitals (Tekspec launched Feb 2026), and 3+ schools (Quanvaulte launched Oct 2026).
+              {"My work also includes Paxi ("}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#5c7cfa]">
+                6K+ users
               </strong>
+              {"), Tekspec ("}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#ffff00]">
+                20+ hospitals
+              </strong>
+              {", launched Feb 2026), and "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#ff00ff]">
+                Quanvaulte
+              </strong>
+              {" (3+ schools, launched Oct 2026)."}
             </p>
           </div>
           <div className="mt-8 sm:mt-10">
