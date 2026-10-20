@@ -98,34 +98,27 @@ export default function HeroSection() {
             style={{ fontVariationSettings: '"wdth" 100' }}
           >
             <p>
-              I'm a Product Designer based in Nigeria, with over 4+ years of experience designing
-              digital products across{" "}
-              <span className="text-[#4ade80]">fintech</span>,{" "}
-              <span className="text-white">SaaS</span>,{" "}
-              <span className="text-[#4ade80]">edtech</span>,{" "}
-              <span className="text-[#fb923c]">gaming</span>,{" "}
-              <span className="text-[#60a5fa]">real estate</span>,{" "}
-              <span className="text-white">and</span>{" "}
-              <span className="text-[#d629cc]">consumer applications</span>.
+              {"I'm a Product Designer with "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
+                4+ years of experience
+              </strong>
+              {" across fintech, SaaS, edtech, gaming, and consumer apps."}
             </p>
             <p>
-              My primary goal as a Product Designer is to drive product revenue and business growth
-              by identifying user problems, designing solutions, and introducing features that create
-              real value for users while delivering measurable business outcomes. I strive to create
-              seamless, intuitive experiences that improve user satisfaction, engagement, and
-              retention.
+              {"I design products users enjoy that solve problems, improve engagement, and "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
+                drive business growth and revenue
+              </strong>
+              {"."}
             </p>
             <p>
-              At Ndloo, I led the product team and helped take the product from concept to launch.
-              I worked on introducing features like virtual gifting, blind-date matching,
-              livestreaming, gifts during livestreams, and reels to make the platform more engaging
-              and create additional revenue streams for the business. The product was later{" "}
-              <span className="text-[#4ade80] font-bold">acquired</span>.
+              At Ndloo, I led product development from concept to launch. The product was later acquired.
             </p>
             <p>
-              These experiences have shaped how I approach product design. I look beyond the
-              interface to understand what users need, what the business wants to achieve, and
-              how the right solutions can bring both together.
+              {"My work has contributed to products reaching "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
+                30k+ users (Ndloo, Acquired), 6K+ users (Paxi), 20+ hospitals (Tekspec launched Feb 2026), and 3+ schools (Quanvaulte launched Oct 2026).
+              </strong>
             </p>
           </div>
           <div className="mt-8 sm:mt-10">
