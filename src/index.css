@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Baloo&family=Poppins:wght@400;500;600;700&family=Sora:wght@300;400;600;800&family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "Plus Jakarta Sans:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/PlusJakartaSans_wght__2") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo 2:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/Baloo2_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo 2:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/Baloo2_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo 2:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/Baloo2_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Baloo-Regular_2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Semi Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Math:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/NotoSansMath-Regular_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Symbols2:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/NotoSansSymbols2-Regular_5") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Symbols:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/NotoSansSymbols-VF_2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/NotoSans-VF_3") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/OpenSans_wdth_wght__2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/OpenSans_wdth_wght__2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/OpenSans_wdth_wght__2") format("woff2");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/PlusJakartaSans_wght__2") format("woff2");
+}
+
+@font-face {
+  font-family: "Instrument Sans:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Instrument Sans:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Instrument Sans:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Instrument Sans:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/InstrumentSans_wdth_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Playfair:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/Playfair_opsz_wdth_wght__2") format("woff2");
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #000000;
+}
+
+.feed-gallery img {
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Clip horizontal artwork without creating a scroll ancestor for sticky navigation. */
+.case-study-page {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+/* ── Case study body text: medium weight (all projects) ──
+   Instrument Sans is a variable font — same file for all weights.
+   Override font-family to the :Medium face + weight 500 for all
+   body paragraphs and text spans. Headings and section label badges
+   are explicitly preserved as Bold. */
+
+.case-study-page p,
+.case-study-page p span:not(strong):not(strong *),
+.case-study-page li,
+.quanvaulte-mobile-design p,
+.quanvaulte-mobile-design p span:not(strong):not(strong *),
+.forfalify-mobile-design p,
+.forfalify-mobile-design p span:not(strong):not(strong *),
+.desktop-case-study-content p,
+.desktop-case-study-content p span:not(strong):not(strong *),
+.mobile-case-flow p,
+.mobile-case-flow p span:not(strong):not(strong *) {
+  font-family: "Instrument Sans:Medium", "Instrument Sans", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Restore bold for section label badges */
+.case-study-page p.case-study-section-label,
+.case-study-page .case-study-section-label,
+.case-study-page .case-study-section-label p,
+.case-study-page [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,
+.desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,
+.desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > h2,
+.desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > h3,
+.quanvaulte-mobile-design [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,
+.forfalify-mobile-design [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Restore bold for large display / heading paragraphs (32px and above) */
+.case-study-page p[class*="text-[32px]"],
+.case-study-page p[class*="text-[40px]"],
+.case-study-page p[class*="text-[48px]"],
+.case-study-page p[class*="text-[64px]"],
+.case-study-page p[class*="text-[128px]"] {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Restore bold for colour-accented heading labels in mobile components
+   (yellow / green / gold — these are mini section-heading labels, not body copy) */
+.quanvaulte-mobile-design p[class*="text-[#fcce00]"],
+.forfalify-mobile-design p[class*="text-[#fcce00]"],
+.forfalify-mobile-design p[class*="text-[#34e619]"],
+.forfalify-mobile-design p[class*="text-[#39ff14]"],
+.forfalify-mobile-design p[class*="text-[#e1be3f]"],
+.quanvaulte-mobile-design p[class*="text-[20px]"] {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* h1 / h2 / h3 / h4 always stay bold */
+.case-study-page h1,
+.case-study-page h2,
+.case-study-page h3,
+.case-study-page h4 {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+@keyframes feed-like-pop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.35) rotate(-7deg);
+  }
+  75% {
+    transform: scale(0.92) rotate(3deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.feed-like-button--active {
+  animation: feed-like-pop 450ms ease-out;
+}
+
+.building-overlay {
+  opacity: 0;
+  transition: opacity 240ms ease;
+  pointer-events: none;
+}
+
+.building-card:hover .building-overlay,
+.building-card:focus .building-overlay {
+  opacity: 1;
+}
+
+.building-block {
+  position: absolute;
+  width: 8%;
+  height: 5%;
+  border-radius: 1px;
+  background: #f49a4e;
+  box-shadow: inset 0 -2px 0 #dc7f38;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.building-card:hover .building-block,
+.building-card:focus .building-block {
+  animation-play-state: running;
+}
+
+.building-block--carried {
+  animation-name: building-delivery;
+}
+
+.building-block--placed {
+  top: 61%;
+  animation-name: building-placement;
+}
+
+.building-block--first { left: 57%; animation-delay: 0s; }
+.building-block--second { left: 66%; animation-delay: 0.5s; }
+.building-block--third { left: 61.5%; top: 55%; animation-delay: 1s; }
+
+@keyframes building-delivery {
+  0%, 8% { left: 8%; top: 78%; opacity: 0; }
+  12% { left: 8%; top: 78%; opacity: 1; }
+  30% { left: 8%; top: 37%; opacity: 1; }
+  48% { left: 77%; top: 37%; opacity: 1; }
+  65% { left: 61.5%; top: 55%; opacity: 1; }
+  70%, 100% { left: 61.5%; top: 55%; opacity: 0; }
+}
+
+@keyframes building-placement {
+  0%, 64% { opacity: 0; transform: translateY(-8px); }
+  70%, 90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .building-overlay { transition: none; }
+  .building-block { animation: none; }
+  .building-block--carried { display: none; }
+}
+
+@media (max-width: 639px) {
+  .case-study-page {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .case-study-page *,
+  .case-study-page *::before,
+  .case-study-page *::after {
+    box-sizing: border-box;
+  }
+
+  /* ── Mobile body-content font size: 15px for ALL projects ── */
+  .case-study-page [class*="text-[14px]"],
+  .case-study-page [class*="text-[15px]"],
+  .case-study-page [class*="text-[16px]"],
+  .case-study-page [class*="text-[18px]"],
+  .case-study-page [class*="text-[20px]"]:not(h1):not(h2):not(h3):not(.case-study-section-label):not([class*="case-study-section-label"]),
+  .case-study-page p:not([class*="case-study-section-label"]):not([class*="text-[24px]"]):not([class*="text-[32px]"]):not([class*="text-[34px]"]):not([class*="text-[40px]"]):not([class*="text-[48px]"]):not([class*="text-[64px]"]):not([class*="text-[128px]"]):not([class*="text-[#fcce00]"]):not(nav *),
+  .case-study-page p span:not(strong):not(strong *),
+  .case-study-page li,
+  .quanvaulte-mobile-design [class*="text-[14px]"],
+  .quanvaulte-mobile-design [class*="text-[15px]"],
+  .forfalify-mobile-design [class*="text-[14px]"],
+  .forfalify-mobile-design [class*="text-[14.033px]"],
+  .forfalify-mobile-design [class*="text-[15px]"],
+  .forfalify-mobile-design [class*="text-[18px]"],
+  .forfalify-mobile-design [class*="text-[18.711px]"] {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Preserve hero/display headings — h1 and large title text stays big */
+  .case-study-page h1,
+  .case-study-page [class*="text-[48px]"],
+  .case-study-page [class*="text-[64px]"],
+  .case-study-page [class*="text-[128px]"] {
+    font-size: revert !important;
+    line-height: revert !important;
+  }
+
+  /* Owambe section sub-headings (32px p tags) → scaled heading, not body */
+  .case-study-page p[class*="text-[32px]"] {
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Webprebuilt and Case study h2/h3 headings */
+  .case-study-page h2:not(.case-study-section-label):not([class*="case-study-section-label"]) {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .case-study-page h3 {
+    font-size: 20px !important;
+    line-height: 1.35 !important;
+  }
+
+  .case-study-page [class*="text-[#fcce00]"][class*="text-[28px]"],
+  .case-study-page [class*="text-[#fcce00]"][class*="text-[32px]"],
+  .desktop-case-study-content [class*="text-[#fcce00]"] {
+    font-size: 18px !important;
+    line-height: 1.45 !important;
+  }
+
+  .case-study-page .case-study-section-label {
+    font-size: 15px !important;
+  }
+
+  .quanvaulte-mobile-design [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,
+  .forfalify-mobile-design [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p {
+    font-size: 15px !important;
+  }
+
+  .mobile-case-flow {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .mobile-case-flow > div {
+    position: relative !important;
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    min-width: 0 !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 40px !important;
+    overflow: hidden !important;
+  }
+
+  .mobile-case-flow > div > * {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+
+  .mobile-case-flow [class*="absolute"][class*="text-"],
+  .mobile-case-flow > div > p {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    transform: none !important;
+    white-space: normal !important;
+  }
+
+  .mobile-case-flow p,
+  .mobile-case-flow p span {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    white-space: normal !important;
+  }
+
+  .mobile-case-flow [class*="bg-white"] > p {
+    font-size: 20px !important;
+    line-height: 1.45 !important;
+  }
+
+  .mobile-case-flow [class*="text-[#fcce00]"],
+  .mobile-case-flow [class*="text-[#34e619]"],
+  .mobile-case-flow [class*="text-[#e1be3f]"] {
+    font-size: 24px !important;
+    line-height: 1.45 !important;
+  }
+
+  .mobile-case-flow img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .quanvaulte-mobile-design {
+    width: 100%;
+    height: 7955px;
+    overflow: hidden;
+  }
+
+  .quanvaulte-mobile-design > * {
+    max-width: calc(100% - 40px);
+  }
+
+  .quanvaulte-mobile-design p {
+    overflow-wrap: anywhere;
+  }
+
+  .quanvaulte-mobile-design [class*="text-[20px]"] {
+    font-size: 20px !important;
+  }
+
+  .forfalify-mobile-design {
+    width: 100%;
+    height: 21402px;
+    overflow: hidden;
+  }
+
+  .forfalify-mobile-design > * {
+    max-width: calc(100% - 40px);
+  }
+
+  .forfalify-mobile-design p {
+    overflow-wrap: anywhere;
+  }
+
+  .case-study-page img,
+  .case-study-page video,
+  .case-study-page canvas {
+    max-width: 100%;
+  }
+
+  .case-study-page section,
+  .case-study-page section > div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .case-study-page p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 640px) {
+  .case-study-page .case-study-section-label {
+    font-size: 20px !important;
+  }
+
+  .desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,
+  .desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > h2,
+  .desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > h3 {
+    font-size: 20px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feed-like-button--active {
+    animation: none;
+  }
+}

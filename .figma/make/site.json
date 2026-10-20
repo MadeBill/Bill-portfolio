@@ -1,0 +1,10 @@
+{
+  "description": "Streamlines precise task execution by replicating exact user requests, ensuring accuracy and efficiency for professionals needing reliable results.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,23 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="18.0744" height="18.0744" viewBox="0 0 18.0744 18.0744" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Polygon 1" filter="url(#filter0_n_0_12090)">
+<path d="M7.20928 0.363599C8.37969 -0.121199 9.69475 -0.1212 10.8652 0.363599L13.8779 1.6115C15.0483 2.0963 15.9781 3.02618 16.4629 4.19659L17.7108 7.20928C18.1956 8.37969 18.1956 9.69475 17.7108 10.8652L16.4629 13.8779C15.9781 15.0483 15.0483 15.9781 13.8779 16.4629L10.8652 17.7108C9.69475 18.1956 8.37969 18.1956 7.20929 17.7108L4.19659 16.4629C3.02618 15.9781 2.0963 15.0483 1.6115 13.8779L0.363599 10.8652C-0.121199 9.69475 -0.1212 8.37969 0.363599 7.20929L1.6115 4.19659C2.0963 3.02618 3.02618 2.0963 4.19659 1.6115L7.20928 0.363599Z" fill="#B3FFB3"/>
+</g>
+<defs>
+<filter id="filter0_n_0_12090" x="0" y="0" width="18.0744" height="18.0744" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="7.4225049018859863 7.4225049018859863" stitchTiles="stitch" numOctaves="3" result="noise" seed="6694" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(255, 255, 255, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_0_12090">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+</defs>
+</svg>

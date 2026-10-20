@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2.27313" height="2.27313" viewBox="0 0 2.27313 2.27313" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background">
+<rect x="0.227313" y="0.227313" width="1.8185" height="1.8185" rx="0.90925" fill="#DFECFF"/>
+<g id="Overlay+Shadow" filter="url(#filter0_d_0_2409)">
+<rect x="0.227313" y="0.227313" width="1.8185" height="1.8185" rx="0.90925" fill="white" fill-opacity="0.01" shape-rendering="crispEdges"/>
+</g>
+<path id="Vector" d="M1.42402 0.740643H1.57956L1.23974 1.12905L1.63952 1.65757H1.32649L1.08132 1.33702L0.800784 1.65757H0.645141L1.00862 1.24213L0.625109 0.740643H0.946082L1.1677 1.03364L1.42402 0.740643ZM1.36942 1.56447H1.45561L0.899248 0.828857H0.806756L1.36942 1.56447Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_d_0_2409" x="0" y="0" width="2.27313" height="2.27313" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="0.227313" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_2409"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_2409"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_2409" result="shape"/>
+</filter>
+</defs>
+</svg>
