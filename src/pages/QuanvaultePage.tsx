@@ -63,7 +63,7 @@ function ScaledSection({ children, height }: { children: React.ReactNode; height
     if (!content) return;
     const update = () => {
       if (content.scrollHeight > 0) {
-        setContentHeight(Math.max(height, content.scrollHeight));
+        setContentHeight(content.scrollHeight);
       }
     };
     const observer = new ResizeObserver(update);
@@ -173,7 +173,7 @@ export default function QuanvaultePage() {
             <QuanvaulteFeed />
           </>
         ) : isMobile ? (
-          <div className="relative h-[5450px] w-full overflow-hidden">
+          <div className="relative w-full">
             <QuanvaulteMobile activeTab={activeTab} onTabChange={setActiveTab} />
           </div>
         ) : (
@@ -185,45 +185,45 @@ export default function QuanvaultePage() {
 
           <div className="relative px-5 sm:px-8 lg:grid lg:grid-cols-[236px_minmax(0,1fr)] lg:items-start lg:gap-6 lg:pl-[120px] lg:pr-5">
             <CaseStudySidebar sections={QUANVAULTE_SECTIONS} />
-            <div className="flex min-w-0 flex-col">
+            <div className="flex min-w-0 flex-col gap-[40px]">
               {/* overview + problem + stat callout */}
               <section className="scroll-mt-24" id="quanvaulte-overview">
-                <ScaledSection height={728}>
+                <ScaledSection height={480}>
                   <OverviewSection />
                 </ScaledSection>
               </section>
 
               {/* research and discovery */}
-              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-research">
-                <ScaledSection height={640}>
+              <section className="scroll-mt-24" id="quanvaulte-research">
+                <ScaledSection height={648}>
                   <ResearchSection />
                 </ScaledSection>
               </section>
 
               {/* design system decision */}
-              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-design-system">
+              <section className="scroll-mt-24" id="quanvaulte-design-system">
                 <ScaledSection height={677}>
                   <DesignSystemSection />
                 </ScaledSection>
               </section>
 
               {/* choice of illustration over images */}
-              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-illustrations">
+              <section className="scroll-mt-24" id="quanvaulte-illustrations">
                 <ScaledSection height={460}>
                   <IllustrationSection />
                 </ScaledSection>
               </section>
 
               {/* choice of icons */}
-              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-iconography">
+              <section className="scroll-mt-24" id="quanvaulte-iconography">
                 <ScaledSection height={420}>
                   <IconSection />
                 </ScaledSection>
               </section>
 
               {/* features decision + button choice + feature cards */}
-              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-features">
-                <ScaledSection height={1560}>
+              <section className="scroll-mt-24" id="quanvaulte-features">
+                <ScaledSection height={1538}>
                   <FeaturesSection />
                 </ScaledSection>
               </section>

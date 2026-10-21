@@ -32,11 +32,7 @@ export default function MacBookPro() {
           className="mt-[16px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
-          I designed a two-part research approach. First,{" "}
-          <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
-            a survey sent to parents of school-age children
-          </strong>{" "}
-          in Topfaith(Uyo) and Excel (Uyo), focused on their expectations around progress visibility and trust. Second — and more valuable — direct qualitative sessions with children in the target age range: short guided conversations where I asked about how they currently learn, what makes them quit something, and what makes them want to come back.
+          I conducted qualitative research sessions with children aged 8–16 at Topfaith and Excel schools in Uyo, exploring how they learn, what makes them lose interest, and what motivates them to return.
         </p>
 
         {/* What they told me — and what I did with it */}
