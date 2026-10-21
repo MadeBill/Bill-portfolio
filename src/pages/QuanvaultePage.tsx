@@ -173,7 +173,7 @@ export default function QuanvaultePage() {
             <QuanvaulteFeed />
           </>
         ) : isMobile ? (
-          <div className="relative h-[6880px] w-full overflow-hidden">
+          <div className="relative h-[5450px] w-full overflow-hidden">
             <QuanvaulteMobile activeTab={activeTab} onTabChange={setActiveTab} />
           </div>
         ) : (
@@ -195,13 +195,13 @@ export default function QuanvaultePage() {
 
               {/* research and discovery */}
               <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-research">
-                <ScaledSection height={840}>
+                <ScaledSection height={640}>
                   <ResearchSection />
                 </ScaledSection>
               </section>
 
               {/* design system decision */}
-              <section className="scroll-mt-24 mt-[48px]" id="quanvaulte-design-system">
+              <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-design-system">
                 <ScaledSection height={677}>
                   <DesignSystemSection />
                 </ScaledSection>
@@ -209,21 +209,21 @@ export default function QuanvaultePage() {
 
               {/* choice of illustration over images */}
               <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-illustrations">
-                <ScaledSection height={620}>
+                <ScaledSection height={460}>
                   <IllustrationSection />
                 </ScaledSection>
               </section>
 
               {/* choice of icons */}
               <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-iconography">
-                <ScaledSection height={780}>
+                <ScaledSection height={420}>
                   <IconSection />
                 </ScaledSection>
               </section>
 
               {/* features decision + button choice + feature cards */}
               <section className="scroll-mt-24 mt-[40px]" id="quanvaulte-features">
-                <ScaledSection height={1850}>
+                <ScaledSection height={1560}>
                   <FeaturesSection />
                 </ScaledSection>
               </section>

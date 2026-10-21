@@ -35,15 +35,8 @@ export default function MacBookPro() {
     <div className="bg-black relative size-full pt-0" data-name="MacBook Pro 14' - 44">
       <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] ml-[98px] text-[#fcce00] text-[18px] w-[660px] whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`Choice of  icons`}</p>
       <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] ml-[92px] mt-[20px] text-[18px] text-white w-[1274px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[38px] mb-0">Icon Style: 3D Illustrations</p>
-        <p className="leading-[38px] mb-0">​</p>
-        <p className="leading-[38px] mb-0">{`I chose 3D illustration-style icons to make the platform feel playful enough for younger children without feeling childish to older users aged 8–16.`}</p>
-        <p className="leading-[38px] mb-0">​</p>
-        <p className="leading-[38px] mb-0">{`Unlike flat or line icons, 3D illustrations use familiar objects that children can recognise more easily, reducing the effort needed to understand what each icon represents.`}</p>
-        <p className="leading-[38px] mb-0">​</p>
-        <p className="leading-[38px] mb-0">{`Their depth and tactile feel also make the interface more engaging, while matching the illustrated characters used throughout the platform.`}</p>
-        <p className="leading-[38px] mb-0">​</p>
-        <p className="leading-[38px]">{`Most importantly, the icons and characters share the same visual style, making the entire experience feel consistent rather than like a collection of separate design decisions.`}</p>
+        <p className="leading-[38px] mb-0">{`I chose 3D illustration-style icons to make the platform playful and engaging for children aged 8–16 without feeling childish.`}</p>
+        <p className="leading-[38px]">{`Their familiar shapes make icons easier to recognise, while their depth and tactile feel complement the illustrated characters, creating a consistent visual experience.`}</p>
       </div>
       <div className="mt-[20px]">
         <Frame />

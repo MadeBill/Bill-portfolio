@@ -778,7 +778,7 @@ function Frame54() {
 
 function Frame55() {
   return (
-    <div className="absolute h-[313px] left-[90px] overflow-clip top-[1430px] w-[1329px]">
+    <div className="absolute h-[313px] left-[90px] overflow-clip top-[1225px] w-[1329px]">
       <div className="absolute bg-[#fcce00] h-[313px] left-0 top-0 w-[1329px]" />
       <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] left-[969px] text-[48px] text-black top-[112px] w-[442px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Still watching?
@@ -828,8 +828,8 @@ export default function MacBookPro() {
         </p>
       </div>
       <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] left-[84px] text-[18px] text-white top-[1048px] w-[1274px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[38px] mb-0">Watching a video and learning from a video are not the same thing — and for children raised on YouTube and TikTok, the gap between the two is significant. I designed a comprehension check pop-up that triggers after a period of inactivity during lesson videos. The video pauses, the illustrated character appears, and a question drawn directly from the content just watched is presented in a multiple choice format. A correct answer earns XP and the video continues. .</p>
-        <p className="leading-[38px]">The feature solves passive watching without removing video as the primary learning format — because research told me video was non-negotiable for this age group. It redirects attention at the exact moment it has drifted, rewards genuine engagement through the XP system, and uses the illustrated character to keep the emotional register of the interruption feeling like a challenge rather than a test. The mechanism measures comprehension, not time. That distinction is the whole point.</p>
+        <p className="leading-[38px] mb-0">I designed a video comprehension check that pauses lessons after inactivity and presents a multiple-choice question based on the content. Correct answers earn XP and resume the video.</p>
+        <p className="leading-[38px]">The feature tackles passive watching without disrupting video-based learning, rewarding understanding rather than time spent while keeping the experience fun and engaging.</p>
       </div>
       <Frame56 />
       <Frame54 />

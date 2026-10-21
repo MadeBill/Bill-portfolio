@@ -128,57 +128,56 @@ export default function QuanvaulteMobile({
           Design system decision
         </p>
       </div>
-      <div className="absolute h-[1050px] left-[23px] top-[2166px] w-[349px]" data-node-id="305:30">
-        <div className="absolute bg-[#332a00] h-[1050px] left-0 top-0 w-[349px]" data-node-id="305:31" />
-        <div className="absolute bg-[#fcce00] h-[54px] left-0 top-0 w-[349px]" data-node-id="305:32" />
-        <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[1.45] left-[10.8px] text-[#060606] text-[12px] top-[19px] whitespace-nowrap" data-node-id="305:33" style={{ fontVariationSettings: '"wdth" 100' }}>
-          Design system
-        </p>
-        <div className="[word-break:break-word] absolute content-stretch flex flex-col font-medium gap-[52px] items-start left-[12px] text-white top-[72px] w-[349px]" data-node-id="305:34">
-          <div className="content-stretch flex gap-[50px] h-[326px] items-start relative shrink-0" data-node-id="305:35">
-            <p className="font-['Instrument_Sans:Medium'] leading-[1.45] relative shrink-0 text-[11px] whitespace-nowrap" data-node-id="305:36" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="absolute min-h-[740px] left-[23px] top-[2166px] w-[349px] overflow-hidden rounded-[4px]" data-node-id="305:30">
+        <div className="absolute inset-0 bg-[#332a00]" data-node-id="305:31" />
+        <div className="relative bg-[#fcce00] h-[54px] w-full px-[14px] flex items-center justify-between" data-node-id="305:32">
+          <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[#060606] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Design system
+          </p>
+          <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[#060606] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Reason for choice color
+          </p>
+        </div>
+        <div className="relative px-[14px] pt-[20px] pb-[28px] flex flex-col gap-[28px] w-full text-white">
+          <div className="flex gap-[14px] items-start w-full">
+            <p className="w-[72px] shrink-0 font-['Instrument_Sans:SemiBold'] font-semibold text-[13px] text-white leading-[1.45]" style={{ fontVariationSettings: '"wdth" 100' }}>
               Color
             </p>
-            <div className="font-['Inter:Medium'] leading-[1px] not-italic relative shrink-0 text-[14px] w-[254px] whitespace-pre-wrap" data-node-id="305:37">
-              <p className="leading-[24px] mb-0">{`Blue carries authority, stability, and focus. Yellow carries joy, warmth, optimism, and attention. Together they cover both ends of the emotional register a children's platform needs — "this is serious and structured" (blue) and "this is fun and rewarding" (yellow). Neither color alone does that job.`}</p>
-              <p className="leading-[24px] mb-0">​</p>
-              <p className="leading-[24px]">I use other colors with same use hue and light for different courses( Each course have their color) to bring fun feels</p>
+            <div className="flex-1 min-w-0 font-['Inter:Medium'] font-medium text-[12.5px] leading-[1.55] text-white space-y-[10px]">
+              <p className="m-0 break-words">{`Blue carries authority, stability, and focus. Yellow carries joy, warmth, optimism, and attention. Together they cover both ends of the emotional register a children's platform needs — "this is serious and structured" (blue) and "this is fun and rewarding" (yellow). Neither color alone does that job.`}</p>
+              <p className="m-0 break-words">I use other colors with same use hue and light for different courses( Each course have their color) to bring fun feels</p>
             </div>
           </div>
-          <div className="content-stretch flex gap-[9px] items-start relative shrink-0 w-full" data-node-id="305:38">
-            <p className="font-['Instrument_Sans:Medium'] leading-[1.45] relative shrink-0 text-[11px] w-[70px]" data-node-id="305:39" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <div className="flex gap-[14px] items-start w-full">
+            <p className="w-[72px] shrink-0 font-['Instrument_Sans:SemiBold'] font-semibold text-[13px] text-white leading-[1.45]" style={{ fontVariationSettings: '"wdth" 100' }}>
               Typography
             </p>
-            <p className="font-['Inter:Medium'] leading-[24px] not-italic relative shrink-0 text-[14px] w-[224px]" data-node-id="305:40">
+            <p className="flex-1 min-w-0 font-['Inter:Medium'] font-medium text-[12.5px] leading-[1.55] text-white break-words m-0">
               Baloo was chosen because it is the best option rounded typeface that a child finds welcoming and feels fun for the users
             </p>
           </div>
-          <div className="content-stretch flex gap-[40px] items-start relative shrink-0 w-[344px]" data-node-id="305:41">
-            <p className="font-['Instrument_Sans:Medium'] leading-[1.45] relative shrink-0 text-[11px] whitespace-nowrap" data-node-id="305:42" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <div className="flex gap-[14px] items-start w-full">
+            <p className="w-[72px] shrink-0 font-['Instrument_Sans:SemiBold'] font-semibold text-[13px] text-white leading-[1.45]" style={{ fontVariationSettings: '"wdth" 100' }}>
               Spaces
             </p>
-            <div className="font-['Inter:Medium'] leading-[1px] not-italic relative shrink-0 text-[14px] w-[255px]" data-node-id="305:43">
-              <p className="leading-[24px] mb-0">{`Why I chose larger spacing for a children's platform`}</p>
-              <p className="leading-[24px] mb-0">{`Children aged 8–12 don't process interfaces the same way adults do. Adults are more familiar with common UI patterns, while children are still learning how to navigate them.`}</p>
-              <p className="leading-[24px] mb-0">Tight spacing can make elements feel cluttered and harder to understand. Larger spacing makes it easier to see what belongs together, what to focus on, and what to do next.</p>
-              <p className="leading-[24px]">For me, the goal was to reduce cognitive load and make the experience feel clear, intuitive, and easy for children to use.</p>
+            <div className="flex-1 min-w-0 font-['Inter:Medium'] font-medium text-[12.5px] leading-[1.55] text-white space-y-[8px]">
+              <p className="font-semibold m-0 break-words">{`Why I chose larger spacing for a children's platform`}</p>
+              <p className="m-0 break-words">{`Children aged 8–12 don't process interfaces the same way adults do. Adults are more familiar with common UI patterns, while children are still learning how to navigate them.`}</p>
+              <p className="m-0 break-words">Tight spacing can make elements feel cluttered and harder to understand. Larger spacing makes it easier to see what belongs together, what to focus on, and what to do next.</p>
+              <p className="m-0 break-words">For me, the goal was to reduce cognitive load and make the experience feel clear, intuitive, and easy for children to use.</p>
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[1.45] left-[141px] text-[#060606] text-[15px] top-[19px] whitespace-nowrap" data-node-id="305:44" style={{ fontVariationSettings: '"wdth" 100' }}>
-          Reason for choice color
-        </p>
       </div>
-      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold h-[19px] leading-[24px] left-[20px] text-[#fcce00] text-[15px] top-[3347px] w-[660px]" data-node-id="305:45" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold h-[19px] leading-[24px] left-[20px] text-[#fcce00] text-[15px] top-[3200px] w-[660px]" data-node-id="305:45" style={{ fontVariationSettings: '"wdth" 100' }}>
         Choice of illustration over images and why?
       </p>
-      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[1px] left-[20px] text-[15px] text-white top-[3380px] w-[337px]" data-node-id="305:46" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[24px] mb-0">One of the deliberate decisions I made early was to introduce a single recurring illustrated character across the student-facing experience — appearing at onboarding, lesson completions, quiz results, streak milestones, and empty states. The rationale was borrowed from what Duolingo proved: a consistent character becomes a relationship, not a decoration. Children aged 8–12 form attachments to recurring personalities quickly, and that attachment creates emotional continuity between sessions. A child who opens the app and sees a familiar face is in a fundamentally different psychological state than one who opens a blank dashboard.</p>
-        <p className="leading-[24px] mb-0">I chose flat illustration over photography or 3D deliberately. Photography of other children creates identity comparison. 3D carries a production expectation difficult to sustain across all screen states. Flat illustration is identity-neutral, scales across every surface, and — critically for this platform — gave me the freedom to design a character that felt native to the Nigerian context without resorting to cultural signifiers as costume.</p>
-        <p className="leading-[24px]">The character has five core states: celebrating, encouraging, challenging, waiting, and commiserating. Each surfaces at a specific moment in the user journey, doing emotional work that interface elements alone cannot.</p>
+      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[1px] left-[20px] text-[15px] text-white top-[3233px] w-[337px]" data-node-id="305:46" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[24px] mb-0">I introduced two recurring illustrated characters across the student experience, from onboarding and lesson completions to quiz results, streaks, and empty states.</p>
+        <p className="leading-[24px]">Inspired by Duolingo, the goal was to make the characters more than decoration. For children aged 8–12, familiar faces can make learning feel more personal and create continuity between sessions.</p>
       </div>
-      <div className="absolute bg-[#fcce00] h-[263px] left-[19px] top-[4115px] w-[351px]" data-node-id="305:47" />
-      <div className="absolute content-stretch flex flex-col gap-[10px] items-start justify-center left-[49px] top-[4130px]" data-node-id="305:48">
+      <div className="absolute bg-[#fcce00] h-[263px] left-[19px] top-[3460px] w-[351px]" data-node-id="305:47" />
+      <div className="absolute content-stretch flex flex-col gap-[10px] items-start justify-center left-[49px] top-[3475px]" data-node-id="305:48">
         <div className="h-[185.25px] relative shrink-0 w-[304px]" data-node-id="305:49" data-name="Gemini_Generated_Image_8pkx998pkx998pkx-removebg-preview 1">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGeminiGeneratedImage8Pkx998Pkx998PkxRemovebgPreview1} />
         </div>
@@ -186,21 +185,14 @@ export default function QuanvaulteMobile({
           Hi, meet Ubong and Otobong
         </p>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[14px] items-start left-[20px] text-[15px] top-[4398px] w-[660px]" data-node-id="305:51">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[14px] items-start left-[20px] text-[15px] top-[3764px] w-[660px]" data-node-id="305:51">
         <p className="font-['Instrument_Sans:Bold'] font-bold h-[14px] leading-[1.45] min-w-full relative shrink-0 text-[#fcce00] w-[min-content] whitespace-pre-wrap" data-node-id="305:52" style={{ fontVariationSettings: '"wdth" 100' }}>{`Choice of  icons`}</p>
         <div className="font-['Instrument_Sans:Medium'] font-medium leading-[1px] relative shrink-0 text-white w-[350px]" data-node-id="305:53" style={{ fontVariationSettings: '"wdth" 100' }}>
-          <p className="leading-[24px] mb-0">Icon Style: 3D Illustrations</p>
-          <p className="leading-[24px] mb-0">​</p>
-          <p className="leading-[24px] mb-0">{`I chose 3D illustration-style icons to make the platform feel playful enough for younger children without feeling childish to older users aged 8–16.`}</p>
-          <p className="leading-[24px] mb-0">​</p>
-          <p className="leading-[24px] mb-0">{`Unlike flat or line icons, 3D illustrations use familiar objects that children can recognise more easily, reducing the effort needed to understand what each icon represents.`}</p>
-          <p className="leading-[24px] mb-0">​</p>
-          <p className="leading-[24px] mb-0">{`Their depth and tactile feel also make the interface more engaging, while matching the illustrated characters used throughout the platform.`}</p>
-          <p className="leading-[24px] mb-0">​</p>
-          <p className="leading-[24px]">{`Most importantly, the icons and characters share the same visual style, making the entire experience feel consistent rather than like a collection of separate design decisions.`}</p>
+          <p className="leading-[24px] mb-0">{`I chose 3D illustration-style icons to make the platform playful and engaging for children aged 8–16 without feeling childish.`}</p>
+          <p className="leading-[24px]">{`Their familiar shapes make icons easier to recognise, while their depth and tactile feel complement the illustrated characters, creating a consistent visual experience.`}</p>
         </div>
       </div>
-      <div className="absolute h-[276px] left-[20px] top-[4950px] w-[348px]" data-node-id="305:54">
+      <div className="absolute h-[276px] left-[20px] top-[3966px] w-[348px]" data-node-id="305:54">
         <div className="absolute bg-[#fcce00] h-[276px] left-0 top-0 w-[348px]" data-node-id="305:55" />
         <div className="absolute content-stretch flex flex-col gap-[12px] items-center justify-center left-[17px] top-[18px]" data-node-id="305:56">
           <div className="h-[180.016px] relative shrink-0 w-[306.137px]" data-node-id="305:57">
@@ -225,7 +217,7 @@ export default function QuanvaulteMobile({
           </p>
         </div>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[14px] items-start left-[20px] text-[15px] top-[5257px] w-[348px]" data-node-id="305:64">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[14px] items-start left-[20px] text-[15px] top-[4282px] w-[348px]" data-node-id="305:64">
         <p className="font-['Instrument_Sans:Bold'] font-bold h-[19px] leading-[1.45] relative shrink-0 text-[#fcce00] w-full whitespace-pre-wrap" data-node-id="305:65" style={{ fontVariationSettings: '"wdth" 100' }}>{`Choice of  button`}</p>
         <p className="font-['Instrument_Sans:Medium'] font-medium leading-[24px] relative shrink-0 text-white w-full" data-node-id="305:66" style={{ fontVariationSettings: '"wdth" 100' }}>
           I used the button with the shadow to bring in the fun feel to the platform and also cause it give the attention of press me, which is what i want for the CTA, i also made the primary blue, secondary and button and the 3rd as the white
@@ -234,7 +226,7 @@ export default function QuanvaulteMobile({
           <img alt="Primary, secondary, and tertiary button choices" className="absolute inset-0 object-cover pointer-events-none size-full" src={imgButtonChoice} />
         </div>
       </div>
-      <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[20px] top-[5610.07px] w-[354px]" data-node-id="305:67">
+      <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[20px] top-[4615px] w-[354px]" data-node-id="305:67">
         <div className="bg-white content-stretch flex items-center justify-center px-[10px] py-[4px] relative shrink-0" data-node-id="305:68">
           <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[15px] whitespace-nowrap" data-node-id="305:69" style={{ fontVariationSettings: '"wdth" 100' }}>
             Features decision
@@ -270,7 +262,7 @@ export default function QuanvaulteMobile({
           </p>
         </div>
       </div>
-      <div className="absolute h-[146px] left-[20px] overflow-clip top-[5938px] w-[349px]" data-node-id="305:71">
+      <div className="absolute h-[146px] left-[20px] overflow-clip top-[4880px] w-[349px]" data-node-id="305:71">
         <img alt="Feature cards introduced from research" className="absolute inset-0 object-cover pointer-events-none size-full z-10" src={imgFeatureCards} />
         <div className="absolute bg-[#fcce00] h-[145.455px] left-0 top-0 w-[617.604px]" data-node-id="305:72" />
         <div className="absolute contents left-[130.58px] top-[7.9px]" data-node-id="305:73">
@@ -621,11 +613,11 @@ export default function QuanvaulteMobile({
           </div>
         </div>
       </div>
-      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[1px] left-[20px] text-[15px] text-white top-[6124px] w-[350px]" data-node-id="305:210" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[24px] mb-0">Watching a video and learning from a video are not the same thing — and for children raised on YouTube and TikTok, the gap between the two is significant. I designed a comprehension check pop-up that triggers after a period of inactivity during lesson videos. The video pauses, the illustrated character appears, and a question drawn directly from the content just watched is presented in a multiple choice format. A correct answer earns XP and the video continues. .</p>
-        <p className="leading-[24px]">The feature solves passive watching without removing video as the primary learning format — because research told me video was non-negotiable for this age group. It redirects attention at the exact moment it has drifted, rewards genuine engagement through the XP system, and uses the illustrated character to keep the emotional register of the interruption feeling like a challenge rather than a test. The mechanism measures comprehension, not time. That distinction is the whole point.</p>
+      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[1px] left-[20px] text-[15px] text-white top-[5056px] w-[350px]" data-node-id="305:210" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[24px] mb-0">I designed a video comprehension check that pauses lessons after inactivity and presents a multiple-choice question based on the content. Correct answers earn XP and resume the video.</p>
+        <p className="leading-[24px]">The feature tackles passive watching without disrupting video-based learning, rewarding understanding rather than time spent while keeping the experience fun and engaging.</p>
       </div>
-      <div className="absolute h-[139px] left-[19px] overflow-clip top-[6696px] w-[352px]" data-node-id="305:211">
+      <div className="absolute h-[139px] left-[19px] overflow-clip top-[5256px] w-[352px]" data-node-id="305:211">
         <div className="absolute bg-[#fcce00] h-[142px] left-0 top-0 w-[352px]" data-node-id="305:212" />
         <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[1.45] left-[270px] text-[11px] text-black top-[62px] w-[117.068px]" data-node-id="305:213" style={{ fontVariationSettings: '"wdth" 100' }}>
           Still watching?

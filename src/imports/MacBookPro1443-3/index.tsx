@@ -1,6 +1,6 @@
 export default function MacBookPro() {
   return (
-    <div className="bg-black relative w-[1440px] pb-[40px]" data-name="MacBook Pro 14' - 43">
+    <div className="bg-black relative w-[1440px] pb-0" data-name="MacBook Pro 14' - 43">
       {/* "Research and discovery" badge */}
       <div className="bg-white inline-flex items-center justify-center ml-[122px] px-[10px] py-[4px] w-fit">
         <p
