@@ -127,11 +127,11 @@ export default function HeroSection() {
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#ffff00]">
                 20+ hospitals
               </strong>
-              {", launched Feb 2026), and "}
+              {", launched Feb 2026), and Quanvaulte ("}
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[#ff00ff]">
-                Quanvaulte
+                3+ schools
               </strong>
-              {" (3+ schools, launched Oct 2026)."}
+              {", launched Oct 2026)."}
             </p>
           </div>
           <div className="mt-8 sm:mt-10">
