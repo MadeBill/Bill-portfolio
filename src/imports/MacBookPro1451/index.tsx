@@ -20,15 +20,12 @@ function Frame() {
 function Frame1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         First-Time Investor Onboarding Modal
       </p>
-      <div className="flex flex-col gap-[12px] min-w-full text-white">
+      <div className="min-w-full text-white">
         <p style={{ fontVariationSettings: '"wdth" 100' }}>
-          The goal was to help investors move from creating an account to making their first investment. I designed a three-screen onboarding modal that introduces the platform and guides users through the Centralized and Custom Pool journeys using real interface previews to build confidence.
-        </p>
-        <p style={{ fontVariationSettings: '"wdth" 100' }}>
-          Investors can choose guided or self-directed onboarding, with the option to skip at any stage so they stay in control of their experience.
+          I designed a three-screen onboarding flow with real interface previews to explain Centralized and Custom Pools. Investors can choose guided or self-directed onboarding and skip steps, keeping the experience flexible and user-controlled.
         </p>
       </div>
     </div>
@@ -72,8 +69,8 @@ function Frame15() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
       <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[38px] mb-0">Investors use the Explore page to compare pools, returns, epoch lengths, and risk before committing. A table makes this easier by keeping key information aligned, so investors can compare options quickly without jumping between cards.</p>
-        <p className="leading-[38px]">It also gives the platform a more structured, professional feel that matches the importance of financial decisions.</p>
+        <p className="leading-[38px] mb-[12px]">I designed the Explore page as a comparison table, helping investors evaluate pools, returns, epoch lengths, and risk side by side before investing.</p>
+        <p className="leading-[38px]">The structured layout makes comparisons quicker and supports confident, informed financial decisions.</p>
       </div>
       <div className="aspect-[1512/982] relative shrink-0 w-full" data-name="MacBook Pro 14_ - 77 (1) 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro147711} />
@@ -84,7 +81,7 @@ function Frame15() {
 
 function Frame12() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
       <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Explore Pools — Table
       </p>
@@ -95,7 +92,7 @@ function Frame12() {
 
 function Frame13() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Custom Pool — Card Design
       </p>
@@ -108,8 +105,8 @@ function Frame13() {
 
 function Frame2() {
   return (
-    <div className="content-stretch flex flex-col gap-[60px] items-start relative shrink-0 w-[1274px]">
-      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#39ff14] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+    <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-[1274px]">
+      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Explore Pools — When i use table and cars
       </p>
       <Frame12 />
@@ -148,8 +145,8 @@ function Frame11() {
 function Frame19() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] min-w-full relative shrink-0 text-[18px] text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        The investor enters their amount — typing a custom figure or selecting from quick-pick presets ranging from $100 to $60k. Their available balance sits at the top before they touch the input, so they know their ceiling before they enter a number. No checkbox here. No confirmation yet. At this stage the investor is still in input mode — asking them to confirm before they have finished deciding is premature friction, not responsible design
+      <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] min-w-full relative shrink-0 text-[18px] text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        Investors can enter a custom amount or choose a preset from <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">$100 to $60K</strong>, with their available balance visible upfront to help them make informed decisions. I kept this step focused on input, avoiding premature confirmation before they’ve decided how much to invest.
       </p>
       <div className="h-[827.426px] relative shrink-0 w-[1274px]" data-name="MacBook Pro 14_ - 39 (2) 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro143921} />
@@ -160,7 +157,7 @@ function Frame19() {
 
 function Frame18() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
       <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Deposit Modal
       </p>
@@ -172,9 +169,8 @@ function Frame18() {
 function Frame21() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[38px] mb-0">After entering an amount, investors see a full summary of their investment, including the amount, pool, APY, estimated returns, pool share, and a warning that funds will be locked for 30–40 days.</p>
-        <p className="leading-[38px]">I placed the confirmation checkbox after these details so investors understand what they're committing to before agreeing.</p>
+      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p>{`I designed an investment summary showing the amount, pool, APY, estimated returns, pool share, and 30–40-day fund lock. The confirmation checkbox comes after these details, ensuring investors understand their commitment before agreeing.`}</p>
       </div>
       <div className="aspect-[1512/982] relative shrink-0 w-full" data-name="MacBook Pro 14_ - 40 (1) 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro144011} />
@@ -185,7 +181,7 @@ function Frame21() {
 
 function Frame20() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
       <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Review Modal
       </p>
@@ -196,7 +192,7 @@ function Frame20() {
 
 function Frame22() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Why two screens?
       </p>
@@ -209,8 +205,8 @@ function Frame22() {
 
 function Frame3() {
   return (
-    <div className="content-stretch flex flex-col gap-[60px] items-start relative shrink-0 w-[1274px]">
-      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#39ff14] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`Investment Flow — Deposit & Review`}</p>
+    <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-[1274px]">
+      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`Investment Flow — Deposit & Review`}</p>
       <Frame18 />
       <Frame20 />
       <Frame22 />
@@ -236,28 +232,26 @@ function Frame16() {
 
 function Frame4() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start relative shrink-0 text-[18px] text-white w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#39ff14] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start relative shrink-0 text-[18px] text-white w-[1274px]">
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Pool Detail Page
       </p>
       <div className="leading-[1px] min-w-full relative shrink-0 w-[min-content] whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[38px] mb-0">The pool detail page brings everything investors need to monitor their investments and make decisions into one place. The challenge was presenting all this information without overwhelming them.</p>
+        <p className="leading-[38px] mb-0">{`I designed the pool detail page to bring key investment information and actions into one place, prioritising clarity, easy navigation, and informed decision-making without overwhelming investors.`}</p>
         <p className="leading-[38px] mb-0">​</p>
-        <p className="leading-[38px] mb-0">I focused on the order of information, making sure each section answers the investor's next question and keeps the experience clear and easy to navigate.</p>
+        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">The hierarchy of information</p>
+        <p className="leading-[38px] mb-0">{`I prioritised the $30,000 funded amount as the main visual focus, placing supporting metrics like APY, utilisation, pool progress, and investor count alongside it in smaller type. This hierarchy helps investors find the most important information first.`}</p>
         <p className="leading-[38px] mb-0">​</p>
-        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-0 text-[#fcce00] text-[18px]">The hierarchy of information</p>
-        <p className="leading-[38px] mb-0">Current amount funded leads at $30,000 in the largest type on the page. That is the number the investor cares about most. Pool Info sits alongside it — total funded, APY, utilisation, pool progress, investor count — in smaller type, right column. Supporting data that never competes with the headline. The eye lands on the most important number first and moves to detail only when it needs to.</p>
-        <p className="leading-[38px] mb-0">​</p>
-        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-0 text-[#fcce00] text-[18px]">Pool Criteria + Edit</p>
+        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">Pool Criteria + Edit</p>
         <p className="leading-[38px] mb-0">Invested, uninvested, loan range, loan interest, and target repayment duration are all visible and editable without leaving the page. Pool managers need to adjust parameters as market conditions change — burying that action in a settings page would create unnecessary friction for a task that needs to happen quickly.</p>
         <p className="leading-[38px] mb-0">​</p>
-        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-0 text-[#fcce00] text-[18px]">Pool Performance — Chart</p>
-        <p className="leading-[38px] mb-0">The green area chart with $3,706 earnings and 99.6% repayment success rate does the most important trust work on the page. A number alone means little. A number with a trend line behind it means the platform has history, and history means reliability. The chart communicates growth trajectory without the investor having to interpret raw data.</p>
+        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">Pool Performance — Chart</p>
+        <p className="leading-[38px] mb-0">{`The earnings chart ($3,706) and 99.6% repayment success rate build investor confidence. The graph helps investors visualise growth over time, making performance and reliability easier to understand at a glance.`}</p>
         <p className="leading-[38px] mb-0">​</p>
-        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-0 text-[#fcce00] text-[18px]">Recent Transactions — Table</p>
+        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">Recent Transactions — Table</p>
         <p className="leading-[38px] mb-0">Transaction history lives last. Audit information belongs at the bottom — it answers what happened, not what is happening now. Status chips — Rejected in red, Successful in green, Processing in yellow — communicate outcome at a glance without reading the full row.</p>
         <p className="leading-[38px] mb-0">​</p>
-        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-0 text-[#fcce00] text-[18px]">Deposit button — persistent</p>
+        <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">Deposit button — persistent</p>
         <p className="leading-[38px]">The Deposit button sits mid-page, always visible while the investor reviews pool performance. If the data is convincing, the action to add more capital is immediately reachable. The proximity of performance data to the deposit action is intentional — conviction should lead directly to action without friction in between.</p>
       </div>
     </div>
@@ -283,22 +277,18 @@ function Frame23() {
   );
 }
 
-function Frame17() {
-  return (
-    <div className="absolute content-stretch flex flex-col gap-[75px] items-start left-[116px] top-[57px] w-[1332px]">
-      <Frame10 />
-      <Frame11 />
-      <Frame16 />
-      <Frame23 />
-    </div>
-  );
-}
-
 export default function MacBookPro() {
   return (
-    <div className="bg-black relative size-full" data-name="MacBook Pro 14' - 51">
+    <div className="bg-black relative w-full" data-name="MacBook Pro 14' - 51">
       <Frame />
-      <Frame17 />
+      <div className="pt-[57px] pl-[116px] w-[1332px]">
+        <div className="content-stretch flex flex-col gap-[75px] items-start w-full">
+          <Frame10 />
+          <Frame11 />
+          <Frame16 />
+          <Frame23 />
+        </div>
+      </div>
     </div>
   );
 }

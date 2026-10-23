@@ -43,7 +43,9 @@ function useMobileLayout() {
 function ScaledSection({ children, height }: { children: React.ReactNode; height: number }) {
   const [scale, setScale] = useState(1);
   const [isMobile, setIsMobile] = useState(() => window.innerWidth < 640);
+  const [contentHeight, setContentHeight] = useState(height);
   const containerRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const element = containerRef.current;
@@ -59,13 +61,29 @@ function ScaledSection({ children, height }: { children: React.ReactNode; height
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    const content = contentRef.current;
+    if (!content) return;
+    const update = () => {
+      if (content.scrollHeight > 0) {
+        setContentHeight(content.scrollHeight);
+      }
+    };
+    const observer = new ResizeObserver(update);
+    update();
+    observer.observe(content);
+    return () => observer.disconnect();
+  }, [height]);
+
   if (isMobile) {
     return <div className="mobile-case-flow">{children}</div>;
   }
 
+  const effectiveHeight = contentHeight || height;
+
   return (
-    <div ref={containerRef} className="relative w-full overflow-hidden" style={{ height: height * scale }}>
-      <div style={{ width: DESIGN_WIDTH, height, zoom: scale }}>
+    <div ref={containerRef} className="relative w-full overflow-hidden" style={{ height: effectiveHeight * scale }}>
+      <div ref={contentRef} style={{ width: DESIGN_WIDTH, zoom: scale }}>
         {children}
       </div>
     </div>
@@ -164,10 +182,10 @@ export default function ForfalifyPage() {
 
           <div className="relative px-5 sm:px-8 lg:grid lg:grid-cols-[236px_minmax(0,1fr)] lg:items-start lg:gap-6 lg:pl-[120px] lg:pr-5">
             <CaseStudySidebar sections={FORFALIFY_SECTIONS} />
-            <div className="flex min-w-0 flex-col gap-[40px]">
+            <div className="flex min-w-0 flex-col gap-[80px]">
               {/* overview + problem + user cards */}
               <section className="scroll-mt-24" id="forfalify-overview">
-                <ScaledSection height={1230}>
+                <ScaledSection height={1050}>
                   <OverviewSection />
                 </ScaledSection>
               </section>
@@ -180,35 +198,35 @@ export default function ForfalifyPage() {
               </section>
 
               {/* key flow decisions */}
-              <section className="-mt-[8px] scroll-mt-24" id="forfalify-key-flows">
+              <section className="scroll-mt-24" id="forfalify-key-flows">
                 <ScaledSection height={8386}>
                   <KeyFlowSection />
                 </ScaledSection>
               </section>
 
               {/* investor decision — information hierarchy */}
-              <section className="scroll-mt-24" id="forfalify-investor">
+              <section className="-mt-[48px] scroll-mt-24" id="forfalify-investor">
                 <ScaledSection height={2035}>
                   <InvestorDecisionsSection />
                 </ScaledSection>
               </section>
 
               {/* merchant flow — getting invoice financed */}
-              <section className="-mt-[8px] scroll-mt-24" id="forfalify-invoice">
+              <section className="scroll-mt-24" id="forfalify-invoice">
                 <ScaledSection height={1776}>
                   <InvoiceFlowSection />
                 </ScaledSection>
               </section>
 
               {/* merchant loan application — pool search to funding */}
-              <section className="-mt-[8px] scroll-mt-24" id="forfalify-loan">
+              <section className="scroll-mt-24" id="forfalify-loan">
                 <ScaledSection height={1512}>
                   <MerchantLoanSection />
                 </ScaledSection>
               </section>
 
               {/* co-merchant signing flow */}
-              <section className="-mt-[8px] scroll-mt-24" id="forfalify-signing">
+              <section className="scroll-mt-24" id="forfalify-signing">
                 <ScaledSection height={1648}>
                   <CoMerchantSigningSection />
                 </ScaledSection>

@@ -8,21 +8,21 @@ export default function WebprebuiltResearchSection() {
       <div className="mx-auto max-w-[1274px]">
         <div data-node-id="241:3">
           <h2
-            className="case-study-section-label w-full bg-white px-[10px] py-1 text-center font-['Instrument_Sans:Bold'] text-[15px] font-bold leading-[1.45] text-[#060606] sm:w-fit sm:text-[20px]"
+            className="case-study-section-label w-full bg-white px-[10px] py-[4px] text-center font-['Instrument_Sans:Bold'] text-[15px] font-bold leading-[1.45] text-[#060606] sm:w-fit"
             style={{ fontVariationSettings: '"wdth" 100' }}
           >
             Research and Discovery
           </h2>
 
-          <div className="mt-[16px] sm:mt-[20px]">
+          <div className="mt-[20px]">
             <h3
-              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[24px] font-bold leading-[1.3] sm:leading-[1.45] mb-2 sm:mb-3"
+              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               I researched the products that already own this space.
             </h3>
             <p
-              className="font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] sm:text-[18px]"
+              className="font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Rather than speaking to SME owners directly at this stage, I conducted a focused
@@ -40,13 +40,13 @@ export default function WebprebuiltResearchSection() {
             data-node-id="241:7"
           >
             <h3
-              className="max-w-[488px] font-['Instrument_Sans:Bold'] text-[26px] sm:text-[34px] lg:text-[40px] font-bold leading-[1.25] sm:leading-[1.3] lg:leading-[60px]"
+              className="max-w-[488px] font-['Instrument_Sans:Bold'] text-[24px] sm:text-[28px] font-bold leading-[1.3]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               The best products pursue simplicity relentlessly
             </h3>
             <p
-              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] sm:text-[18px] font-medium leading-[1.6] sm:leading-[28px]"
+              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               The features were deep, but the surfaces were clean. Nothing competed with the thing
@@ -62,13 +62,13 @@ export default function WebprebuiltResearchSection() {
             data-node-id="241:11"
           >
             <h3
-              className="max-w-[488px] font-['Instrument_Sans:Bold'] text-[26px] sm:text-[34px] lg:text-[40px] font-bold leading-[1.25] sm:leading-[1.3] lg:leading-[52px]"
+              className="max-w-[488px] font-['Instrument_Sans:Bold'] text-[24px] sm:text-[28px] font-bold leading-[1.3]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Each file is its own world
             </h3>
             <div
-              className="mt-4 sm:mt-5 space-y-4 sm:space-y-5 font-['Instrument_Sans:Medium'] text-[15px] sm:text-[18px] font-medium leading-[1.6]"
+              className="mt-4 sm:mt-5 space-y-4 sm:space-y-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               <div>

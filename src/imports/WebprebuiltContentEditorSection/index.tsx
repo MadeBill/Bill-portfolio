@@ -17,13 +17,13 @@ function DecisionBlock({
   return (
     <div>
       <h3
-        className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mb-2"
+        className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[16px]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {title}
       </h3>
       <div
-        className="space-y-3 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] sm:text-[18px]"
+        className="space-y-3 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {children}
@@ -41,13 +41,13 @@ export default function WebprebuiltContentEditorSection() {
     >
       <div className="mx-auto max-w-[1272px]">
         <h2
-          className="font-['Instrument_Sans:Bold'] text-[24px] sm:text-[32px] font-bold leading-[1.3] sm:leading-[51px]"
+          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           Decision 2 — Content Editor
         </h2>
 
-        <div className="mt-[15px] space-y-9">
+        <div className="mt-[16px]">
           <DecisionBlock title="Why the editor is intentionally limited">
             <p>
               Full design freedom can overwhelm SME owners without design experience. One wrong change can break a layout and compromise the professional look of their website.

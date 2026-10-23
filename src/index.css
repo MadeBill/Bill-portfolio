@@ -218,6 +218,12 @@ body,
   font-weight: 700 !important;
 }
 
+/* Restore bold for Forfaitify desktop section heading labels (22px white bold) */
+.desktop-case-study-content p[class*="text-[22px]"] {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
 /* Restore bold for colour-accented heading labels in mobile components
    (yellow / green / gold — these are mini section-heading labels, not body copy) */
 .quanvaulte-mobile-design p[class*="text-[#fcce00]"],
@@ -512,7 +518,7 @@ body,
 
 @media (min-width: 640px) {
   .case-study-page .case-study-section-label {
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
 
   .desktop-case-study-content [class*="bg-white"][class*="px-[10px]"][class*="py-[4px]"] > p,

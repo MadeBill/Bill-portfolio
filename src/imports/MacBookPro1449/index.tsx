@@ -156,8 +156,8 @@ function Frame17() {
 
 function Frame7() {
   return (
-    <div className="h-[714px] relative shrink-0 w-[602px]">
-      <div className="absolute bg-[#37fc00] h-[714px] left-0 top-0 w-[602px]" />
+    <div className="h-[540px] relative shrink-0 w-[602px]">
+      <div className="absolute bg-[#37fc00] h-[540px] left-0 top-0 w-[602px]" />
       <Frame17 />
     </div>
   );
@@ -264,8 +264,8 @@ function Frame18() {
 
 function Frame8() {
   return (
-    <div className="h-[714px] relative shrink-0 w-[602px]">
-      <div className="absolute bg-[#d600fc] h-[714px] left-0 top-0 w-[602px]" />
+    <div className="h-[540px] relative shrink-0 w-[602px]">
+      <div className="absolute bg-[#d600fc] h-[540px] left-0 top-0 w-[602px]" />
       <Frame18 />
     </div>
   );
@@ -274,13 +274,12 @@ function Frame8() {
 export default function MacBookPro() {
   return (
     <div className="bg-black relative size-full" data-name="MacBook Pro 14' - 49">
-      <div className="absolute content-stretch flex flex-col gap-[40px] items-start left-[122px] top-0 w-[1274px]">
+      <div className="absolute content-stretch flex flex-col gap-[80px] items-start left-[122px] top-0 w-[1274px]">
         {/* Overview block */}
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
           <Frame4 />
           <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
-            <p className="mb-[20px]">Small and mid-sized merchants often struggle to access invoices finance due to complex processes and limited banking relationships. Forfaitify connects these merchants with investors seeking asset-backed, insurance-protected investment opportunities.</p>
-            <p>As the founding product designer, I designed both portals, covering the merchant application flow, investment pools, epoch mechanics, notifications, and security.</p>
+            <p>Forfaitify connects merchants seeking invoice financing with investors looking for asset-backed, insured returns. I designed both merchant and investor portals, covering applications, investment pools, funding cycles, and security.</p>
           </div>
         </div>
 
@@ -288,8 +287,9 @@ export default function MacBookPro() {
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
           <Frame5 />
           <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
-            <p className="mb-0">Two users. Opposite relationships with risk.</p>
-            <p>The defining challenge on Forfaitify was not visual — it was structural. The platform serves two user types whose relationship to the product is almost entirely opposed.</p>
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-white mb-[12px]">Making invoice financing accessible while building investor confidence.</p>
+            <p className="mb-[12px]">Small and mid-sized merchants often struggle to access invoice financing due to complex processes and limited banking relationships. Meanwhile, investors need clarity on investment risks, returns, and the security of their funds.</p>
+            <p>The challenge was to design two connected experiences that made financing easier for merchants while helping investors make informed investment decisions.</p>
           </div>
         </div>
 

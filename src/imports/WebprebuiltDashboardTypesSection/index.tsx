@@ -19,21 +19,21 @@ function DashboardDescription({
     <div>
       {isMainTitle ? (
         <h2
-          className="font-['Instrument_Sans:Bold'] text-[24px] sm:text-[32px] font-bold leading-[1.3] sm:leading-[51px] text-white mb-2"
+          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] text-white mb-[16px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {title}
         </h2>
       ) : (
         <h3
-          className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mb-2"
+          className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[16px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {title}
         </h3>
       )}
       <div
-        className="space-y-2 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] sm:text-[18px]"
+        className="space-y-2 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {children}
@@ -50,7 +50,7 @@ export default function WebprebuiltDashboardTypesSection() {
       data-node-id="257:42"
     >
       <div className="mx-auto max-w-[1275px]">
-        <div className="space-y-[37px]" data-node-id="257:44">
+        <div data-node-id="257:44">
           <DashboardDescription title="Decision 3 — Three Dashboard Types for Nine Niches" isMainTitle>
             <p>
               Eight niches sounds like eight dashboards. It is not. After mapping what each niche

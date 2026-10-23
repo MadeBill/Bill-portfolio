@@ -49,38 +49,44 @@ function ImageGrid() {
 
 export default function MacBookPro1468() {
   return (
-    <div className="bg-black relative size-full" data-name="MacBook Pro 14' - 68">
-      <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[90px] top-0 w-[1332px]">
+    <div className="bg-black relative w-full pt-0 pl-[90px]" data-name="MacBook Pro 14' - 68">
+      <div className="content-stretch flex flex-col gap-[20px] items-start w-[1332px]">
         <div className="bg-white content-stretch flex items-center justify-center px-[10px] py-[4px] relative shrink-0">
           <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[32px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
             Flow for getting invoice financed
           </p>
         </div>
-        <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-          <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#39ff14] text-[18px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-full">
+          <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
             01 Creating invoice
           </p>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-pre" style={{ fontVariationSettings: '"wdth" 100' }}>{`Fill basic  details`}</p>
             <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
-              The first screen asks for foundational details — merchant name, invoice number, billing address, total amount, due date, and co-merchant. One form, one job: establish the invoice before anything else. Nothing about pools, nothing about funding terms. A merchant who handles trade documentation regularly completes this in under two minutes
+              I designed a single form for merchants to enter essential invoice details, including the amount, due date, billing address, and co-merchant. By focusing on one task at a time, the flow keeps invoice creation simple and efficient, with experienced merchants able to complete it in under two minutes.
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Upload Supporting Documents
             </p>
             <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Once the invoice is created, the merchant uploads supporting documentation. The upload screen is deliberately minimal — a clear drop zone, brief instruction, and a confirm terms checkbox before proceeding. The merchant acknowledges what they are submitting before the platform processes it. Consent at the moment of submission, not buried in onboarding terms.
+              {"I kept the document upload screen minimal, with a clear drop zone and a terms checkbox. This ensures merchants acknowledge the terms "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">at the point of submission</strong>
+              {", rather than relying on buried onboarding agreements."}
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Share Invoice for Co-Merchant Signatures
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once the application is submitted, a success modal confirms the invoice has been created and immediately presents the share link as the primary action. The invoice cannot be funded until all co-merchants have signed. The share link sits as the first action at the moment the merchant is most motivated to move the deal forward — no navigating to a dashboard, no finding a share option in a menu. "I'll do it later" sits below as a secondary option for merchants who need to contact their co-merchant through a specific channel first.`}</p>
+            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {"After submission, a success modal makes "}
+              <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">sharing the invoice the primary action</strong>
+              {", helping merchants collect required co-merchant signatures without extra navigation. “I’ll do it later” remains available as a secondary option."}
+            </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[12px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               {`Signatures Collected → Approval → Funding`}
             </p>

@@ -49,7 +49,7 @@ export default function ForfalifyMobile({
       </div>
 
       {/* ── Main content as a flex column – no more hardcoded top values ── */}
-      <div className="flex flex-col gap-[40px] items-start pt-[91px] px-[18px] pb-[60px] w-full">
+      <div className="flex flex-col gap-[64px] items-start pt-[91px] px-[18px] pb-[60px] w-full">
 
         {/* 1. Overview */}
         <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:16">
@@ -59,118 +59,113 @@ export default function ForfalifyMobile({
             </p>
           </div>
           <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-white w-full" data-node-id="325:19" style={{ fontVariationSettings: '"wdth" 100' }}>
-            <p className="leading-[24px] mb-[16px]">Small and mid-sized merchants often struggle to access invoices finance due to complex processes and limited banking relationships. Forfaitify connects these merchants with investors seeking asset-backed, insurance-protected investment opportunities.</p>
-            <p className="leading-[24px]">As the founding product designer, I designed both portals, covering the merchant application flow, investment pools, epoch mechanics, notifications, and security.</p>
+            <p className="leading-[24px]">Forfaitify connects merchants seeking invoice financing with investors looking for asset-backed, insured returns. I designed both merchant and investor portals, covering applications, investment pools, funding cycles, and security.</p>
           </div>
         </div>
 
         {/* 2. The problem + user cards */}
-        <div className="flex flex-col gap-[40px] items-start w-full" data-node-id="325:20">
+        <div className="flex flex-col gap-[64px] items-start w-full" data-node-id="325:20">
           <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="325:21">
             <div className="bg-white content-stretch flex items-center justify-center px-[10px] py-[4px] relative shrink-0" data-node-id="325:22">
               <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[15px] whitespace-nowrap" data-node-id="325:23" style={{ fontVariationSettings: '"wdth" 100' }}>
                 The problem
               </p>
             </div>
-            <div className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold text-[15px] text-white w-full" data-node-id="325:24" style={{ fontVariationSettings: '"wdth" 100' }}>
-              <p className="leading-[24px] mb-0">Two users. Opposite relationships with risk.</p>
-              <p className="leading-[24px]">The defining challenge on Forfaitify was not visual — it was structural. The platform serves two user types whose relationship to the product is almost entirely opposed.</p>
+            <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-white w-full" data-node-id="325:24" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] mb-[12px]">Making invoice financing accessible while building investor confidence.</p>
+              <p className="leading-[24px] mb-[12px]">Small and mid-sized merchants often struggle to access invoice financing due to complex processes and limited banking relationships. Meanwhile, investors need clarity on investment risks, returns, and the security of their funds.</p>
+              <p className="leading-[24px]">The challenge was to design two connected experiences that made financing easier for merchants while helping investors make informed investment decisions.</p>
             </div>
           </div>
           <div className="content-stretch flex flex-col gap-[21px] items-start relative shrink-0 w-full" data-node-id="325:25">
             {/* Investor card */}
-            <div className="h-[417.488px] relative shrink-0 w-full" data-node-id="325:26">
-              <div className="absolute bg-[#37fc00] h-[417.488px] left-0 top-0 w-[352px]" data-node-id="325:27" />
-              <div className="absolute content-stretch flex flex-col gap-[29.821px] items-start left-[18.71px] top-[11.69px] w-[307.561px]" data-node-id="325:28">
-                <div className="content-stretch flex flex-col gap-[4.678px] items-start relative shrink-0 w-full" data-node-id="325:29">
-                  <div className="bg-white content-stretch flex items-center justify-center px-[5.847px] py-[2.339px] relative shrink-0" data-node-id="325:30">
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[14.033px] whitespace-nowrap" data-node-id="325:31" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      The investor
-                    </p>
-                  </div>
-                  <p className="[word-break:break-word] font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.45] min-w-full relative shrink-0 text-[18.711px] text-black w-[min-content]" data-node-id="325:32" style={{ fontVariationSettings: '"wdth" 100' }}>
-                    Deploys capital. Expects structured returns
+            <div className="w-full bg-[#37fc00] p-[18px] flex flex-col gap-[24px]" data-node-id="325:26">
+              <div className="flex flex-col gap-[8px] items-start w-full" data-node-id="325:29">
+                <div className="bg-white flex items-center justify-center px-[8px] py-[3px]" data-node-id="325:30">
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[#060606] text-[14px] whitespace-nowrap" data-node-id="325:31" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    The investor
                   </p>
                 </div>
-                <div className="content-stretch flex flex-col gap-[29.236px] items-start relative shrink-0 w-[296.452px]" data-node-id="325:33">
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:34">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:35">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:36" style={{ fontVariationSettings: '"wdth" 100' }}>{`Needs to understand exactly where their money is and what it's doing at any point in time`}</p>
+                <p className="font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.4] text-[18px] text-black w-full" data-node-id="325:32" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Deploys capital. Expects structured returns
+                </p>
+              </div>
+              <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:33">
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:34">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:35">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:37">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:38">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:39" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs to choose between pooled exposure and custom deal-specific allocation
-                    </p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:36" style={{ fontVariationSettings: '"wdth" 100' }}>{`Needs to understand exactly where their money is and what it's doing at any point in time`}</p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:37">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:38">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:40">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:41">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:42" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs epoch-based reporting — clear visibility of cycle start, end, and return
-                    </p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:39" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs to choose between pooled exposure and custom deal-specific allocation
+                  </p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:40">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:41">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:43">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:44">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:45" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs to trust the platform before they trust a single merchant
-                    </p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:42" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs epoch-based reporting — clear visibility of cycle start, end, and return
+                  </p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:43">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:44">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:45" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs to trust the platform before they trust a single merchant
+                  </p>
                 </div>
               </div>
             </div>
+
             {/* Merchant card */}
-            <div className="h-[417.488px] relative shrink-0 w-full" data-node-id="325:46">
-              <div className="absolute bg-[#d600fc] h-[417.488px] left-0 top-0 w-[352px]" data-node-id="325:47" />
-              <div className="absolute content-stretch flex flex-col gap-[29.821px] items-start left-[18.71px] top-[11.69px] w-[307.561px]" data-node-id="325:48">
-                <div className="content-stretch flex flex-col gap-[4.678px] items-start relative shrink-0 w-full" data-node-id="325:49">
-                  <div className="bg-white content-stretch flex items-center justify-center px-[5.847px] py-[2.339px] relative shrink-0" data-node-id="325:50">
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[14.033px] whitespace-nowrap" data-node-id="325:51" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      The Merchant
-                    </p>
-                  </div>
-                  <p className="[word-break:break-word] font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.45] min-w-full relative shrink-0 text-[18.711px] text-black w-[min-content]" data-node-id="325:52" style={{ fontVariationSettings: '"wdth" 100' }}>
-                    Needs capital. Operates under time pressure.
+            <div className="w-full bg-[#d600fc] p-[18px] flex flex-col gap-[24px]" data-node-id="325:46">
+              <div className="flex flex-col gap-[8px] items-start w-full" data-node-id="325:49">
+                <div className="bg-white flex items-center justify-center px-[8px] py-[3px]" data-node-id="325:50">
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[#060606] text-[14px] whitespace-nowrap" data-node-id="325:51" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    The Merchant
                   </p>
                 </div>
-                <div className="content-stretch flex flex-col gap-[29.236px] items-start relative shrink-0 w-[296.452px]" data-node-id="325:53">
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:54">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:55">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:56" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs fast, clear access to available financing — not a complex financial dashboard
-                    </p>
+                <p className="font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.4] text-[18px] text-black w-full" data-node-id="325:52" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Needs capital. Operates under time pressure.
+                </p>
+              </div>
+              <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:53">
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:54">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:55">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:57">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:58">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:59" style={{ fontVariationSettings: '"wdth" 100' }}>{`Needs to understand what they're committing to before they apply`}</p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:56" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs fast, clear access to available financing — not a complex financial dashboard
+                  </p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:57">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:58">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:60">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:61">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:62" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs status visibility — where is my application, when does it fund
-                    </p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:59" style={{ fontVariationSettings: '"wdth" 100' }}>{`Needs to understand what they're committing to before they apply`}</p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:60">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:61">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
-                  <div className="content-stretch flex gap-[11.694px] items-start relative shrink-0 w-full" data-node-id="325:63">
-                    <div className="relative shrink-0 size-[18.711px]" data-node-id="325:64">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse24} />
-                    </div>
-                    <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[14.033px] text-black w-[266.047px]" data-node-id="325:65" style={{ fontVariationSettings: '"wdth" 100' }}>
-                      Needs to feel the platform is on their side, not interrogating them .Needs a process simple enough to complete without a financial advisor
-                    </p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:62" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs status visibility — where is my application, when does it fund
+                  </p>
+                </div>
+                <div className="flex gap-[12px] items-start w-full" data-node-id="325:63">
+                  <div className="relative shrink-0 size-[18px] mt-[3px]" data-node-id="325:64">
+                    <img alt="" className="block size-full" src={imgEllipse24} />
                   </div>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.45] text-[14px] text-black flex-1" data-node-id="325:65" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Needs to feel the platform is on their side, not interrogating them .Needs a process simple enough to complete without a financial advisor
+                  </p>
                 </div>
               </div>
             </div>
@@ -184,73 +179,79 @@ export default function ForfalifyMobile({
           </p>
         </div>
 
-        {/* 4. Illustration — Newspaper & Engraving Style */}
-        <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[20px] items-start text-[15px] w-full" data-node-id="325:93">
-          <p className="leading-[51px] min-w-full relative shrink-0 text-[#39ff14] w-[min-content]" data-node-id="325:94" style={{ fontVariationSettings: '"wdth" 100' }}>{`Illustration — Newspaper & Engraving Style`}</p>
-          <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:95" style={{ fontVariationSettings: '"wdth" 100' }}>{`Trade finance has a history that lives in print — paper invoices, stamped documents, broadsheet financial reporting. The three illustrations reference that heritage directly: a verified invoice in aged newspaper texture, an engraving-style hand holding a magnifying glass, a pile of international currencies as a physical tangible object. The contrast between the aged illustration style and the clean digital interface communicates the platform's core proposition in one visual moment — old trust, new technology.`}</p>
-          <div className="h-[145px] ml-[3px] relative shrink-0 w-[345px]" data-node-id="325:96">
-            <div className="absolute bg-[#fcce00] h-[145px] left-0 top-0 w-[345px]" data-node-id="325:97" />
-            <div className="absolute content-stretch flex gap-[24.083px] items-center left-[22px] top-[22px]" data-node-id="325:98">
-              <div className="h-[86.206px] relative shrink-0 w-[77.365px]" data-node-id="325:99" data-name="image 7">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
-              </div>
-              <div className="h-[108.202px] relative shrink-0 w-[97.104px]" data-node-id="325:100" data-name="image 6">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
-              </div>
-              <div className="h-[86.206px] relative shrink-0 w-[77.365px]" data-node-id="325:101" data-name="image 8">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage8} />
+        {/* Design System & Mood Decisions */}
+        <div className="flex flex-col gap-[32px] items-start w-full mt-[-44px]">
+          {/* 4. Illustration — Newspaper & Engraving Style */}
+          <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start text-[15px] w-full" data-node-id="325:93">
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] min-w-full relative shrink-0 text-[#39ff14] w-[min-content]" data-node-id="325:94" style={{ fontVariationSettings: '"wdth" 100' }}>{`Illustration — Newspaper & Engraving Style`}</p>
+            <div className="leading-[24px] relative shrink-0 text-white w-full space-y-[12px]" data-node-id="325:95" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p>{`Trade finance has a long history rooted in paper invoices, stamped documents, and financial records. I used three vintage-style illustrations to reflect that heritage, combining aged textures, engraved details, and physical currency.`}</p>
+              <p>{`The contrast with the clean digital interface reinforces Forfaitify’s core idea: traditional trust, reimagined through technology.`}</p>
+            </div>
+            <div className="h-[145px] ml-[3px] relative shrink-0 w-[345px]" data-node-id="325:96">
+              <div className="absolute bg-[#fcce00] h-[145px] left-0 top-0 w-[345px]" data-node-id="325:97" />
+              <div className="absolute content-stretch flex gap-[24.083px] items-center left-[22px] top-[22px]" data-node-id="325:98">
+                <div className="h-[86.206px] relative shrink-0 w-[77.365px]" data-node-id="325:99" data-name="image 7">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+                </div>
+                <div className="h-[108.202px] relative shrink-0 w-[97.104px]" data-node-id="325:100" data-name="image 6">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
+                </div>
+                <div className="h-[86.206px] relative shrink-0 w-[77.365px]" data-node-id="325:101" data-name="image 8">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage8} />
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* 5. Color — Blue */}
-        <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:66">
-          <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="325:67">
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#39ff14] text-[15px] w-[92px]" data-node-id="325:68" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Color — Blue
-            </p>
-            <div className="bg-[#2c43eb] h-[16px] relative rounded-[2.909px] shrink-0 w-[16.364px]" data-node-id="325:69" />
-          </div>
-          <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[15px] text-white w-full" data-node-id="325:70" style={{ fontVariationSettings: '"wdth" 100' }}>
-            Blue is not the default fintech color by accident. It reduces anxiety, signals institutional credibility, and communicates stability — the three things an investor needs before committing capital. I used it sparingly: primary actions, active states, and trust signals only. When blue appears on Forfaitify, it means something.
-          </p>
-        </div>
-
-        {/* 6. Typography */}
-        <div className="flex flex-col gap-[40px] items-start w-full" data-node-id="325:71">
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:72">
-            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-full" data-node-id="325:73" style={{ fontVariationSettings: '"wdth" 100' }}>{`Typography — Plus Jakarta Sans & Inter`}</p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:74" style={{ fontVariationSettings: '"wdth" 100' }}>
-              I used Plus Jakarta Sans for headings and UI elements because of its clean, confident look, and Inter for body text to keep information easy to read, especially on data-heavy screens. One helps users scan quickly, while the other makes longer content easier to follow.
+          {/* 5. Color — Blue */}
+          <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:66">
+            <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="325:67">
+              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#39ff14] text-[15px] w-[92px]" data-node-id="325:68" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Color — Blue
+              </p>
+              <div className="bg-[#2c43eb] h-[16px] relative rounded-[2.909px] shrink-0 w-[16.364px]" data-node-id="325:69" />
+            </div>
+            <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] relative shrink-0 text-[15px] text-white w-full" data-node-id="325:70" style={{ fontVariationSettings: '"wdth" 100' }}>
+              I used blue selectively to communicate trust, stability, and confidence, especially in a product where investors commit capital.
             </p>
           </div>
-          <div className="aspect-[1023/918] relative shrink-0 w-full max-w-[341px]" data-name="Typography Banner Mobile">
-            <img
-              alt="Typography — Plus Jakarta Sans & Inter"
-              className="h-full w-full object-cover pointer-events-none"
-              src={imgTypographyBannerMobile}
-            />
+
+          {/* 6. Typography */}
+          <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:71">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:72">
+              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-full" data-node-id="325:73" style={{ fontVariationSettings: '"wdth" 100' }}>{`Typography — Plus Jakarta Sans & Inter`}</p>
+              <p className="relative shrink-0 text-white w-full" data-node-id="325:74" style={{ fontVariationSettings: '"wdth" 100' }}>
+                I used Plus Jakarta Sans for headings and UI elements because of its clean, confident look, and Inter for body text to keep information easy to read, especially on data-heavy screens. One helps users scan quickly, while the other makes longer content easier to follow.
+              </p>
+            </div>
+            <div className="aspect-[1023/918] relative shrink-0 w-full max-w-[341px]" data-name="Typography Banner Mobile">
+              <img
+                alt="Typography — Plus Jakarta Sans & Inter"
+                className="h-full w-full object-cover pointer-events-none"
+                src={imgTypographyBannerMobile}
+              />
+            </div>
           </div>
-        </div>
 
-        {/* 7. Icons */}
-        <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[20px] items-start leading-[24px] text-[15px] w-full" data-node-id="325:84">
-          <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:85" style={{ fontVariationSettings: '"wdth" 100' }}>
-            Icons — Inline
-          </p>
-          <p className="relative shrink-0 text-white w-full" data-node-id="325:86" style={{ fontVariationSettings: '"wdth" 100' }}>
-            Simple inline icons get out of the way of the data. On a financial dashboard, iconography that competes for attention is iconography that has failed its job.
-          </p>
-        </div>
-
-        {/* 8. Spacing */}
-        <div className="flex flex-col items-start w-full" data-node-id="325:87">
-          <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[20px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:88">
-            <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:89" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Spacing — 8px base, fintech standard
+          {/* 7. Icons */}
+          <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[24px] text-[15px] w-full" data-node-id="325:84">
+            <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:85" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Icons — Inline
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:90" style={{ fontVariationSettings: '"wdth" 100' }}>{`The fintech spacing convention exists because it has been validated at scale across millions of users making financial decisions. Reinventing it would have been design for its own sake, not for the user's benefit.`}</p>
+            <p className="relative shrink-0 text-white w-full" data-node-id="325:86" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Simple inline icons get out of the way of the data. On a financial dashboard, iconography that competes for attention is iconography that has failed its job.
+            </p>
+          </div>
+
+          {/* 8. Spacing */}
+          <div className="flex flex-col items-start w-full" data-node-id="325:87">
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:88">
+              <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:89" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Spacing — 8px base, fintech standard
+              </p>
+              <p className="relative shrink-0 text-white w-full" data-node-id="325:90" style={{ fontVariationSettings: '"wdth" 100' }}>{`The fintech spacing convention exists because it has been validated at scale across millions of users making financial decisions. Reinventing it would have been design for its own sake, not for the user's benefit.`}</p>
+            </div>
           </div>
         </div>
 
@@ -261,140 +262,136 @@ export default function ForfalifyMobile({
           </p>
         </div>
 
-        {/* 10. First-Time Investor Onboarding Modal */}
-        <div className="flex flex-col gap-[40px] items-start w-full" data-node-id="325:102">
-          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="325:103">
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:104">
-              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-[278px]" data-node-id="325:105" style={{ fontVariationSettings: '"wdth" 100' }}>
-                First-Time Investor Onboarding Modal
-              </p>
-              <div className="flex flex-col gap-[12px] text-white w-full">
-                <p data-node-id="325:106" style={{ fontVariationSettings: '"wdth" 100' }}>
-                  The goal was to help investors move from creating an account to making their first investment. I designed a three-screen onboarding modal that introduces the platform and guides users through the Centralized and Custom Pool journeys using real interface previews to build confidence.
+        {/* Key Flows Subsections */}
+        <div className="flex flex-col gap-[32px] items-start w-full mt-[-44px]">
+          {/* 10. First-Time Investor Onboarding Modal */}
+          <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:102">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="325:103">
+              <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:104">
+                <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-[278px]" data-node-id="325:105" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  First-Time Investor Onboarding Modal
                 </p>
-                <p style={{ fontVariationSettings: '"wdth" 100' }}>
-                  Investors can choose guided or self-directed onboarding, with the option to skip at any stage so they stay in control of their experience.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col gap-[36.829px] items-start w-full" data-node-id="325:107">
-            <div className="h-[431.378px] relative shrink-0 w-[349px]" data-node-id="325:108" data-name="Frame 1000004690 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046901} />
-            </div>
-            <div className="h-[467.695px] relative shrink-0 w-[349px]" data-node-id="325:109" data-name="Frame 1000004689 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046891} />
-            </div>
-            <div className="h-[467.695px] relative shrink-0 w-[349px]" data-node-id="325:110" data-name="Frame 1000004691 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046911} />
-            </div>
-          </div>
-        </div>
-
-        {/* 11. Investment Flow — Deposit & Review */}
-        <div className="flex flex-col gap-[40px] items-start w-full">
-
-          {/* Investment Flow heading + Deposit Modal */}
-          <div className="flex flex-col gap-[12px] items-start w-full" data-node-id="325:116">
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] text-[#39ff14] text-[15px] whitespace-nowrap" data-node-id="325:117" style={{ fontVariationSettings: '"wdth" 100' }}>{`Investment Flow — Deposit & Review`}</p>
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:119" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Deposit Modal
-            </p>
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] text-[15px] text-white w-full" data-node-id="325:121" style={{ fontVariationSettings: '"wdth" 100' }}>
-              The investor enters their amount — typing a custom figure or selecting from quick-pick presets ranging from $100 to $60k. Their available balance sits at the top before they touch the input, so they know their ceiling before they enter a number. No checkbox here. No confirmation yet. At this stage the investor is still in input mode — asking them to confirm before they have finished deciding is premature friction, not responsible design
-            </p>
-            <div className="h-[218px] relative shrink-0 w-[336px]" data-node-id="325:122" data-name="MacBook Pro 14_ - 39 (2) 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro143921} />
-            </div>
-          </div>
-
-          {/* Review Modal */}
-          <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:123">
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:124" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Review Modal
-            </p>
-            <div className="flex flex-col gap-[40px] items-start w-full" data-node-id="325:125">
-              <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] text-white w-full" data-node-id="325:126" style={{ fontVariationSettings: '"wdth" 100' }}>
-                <p className="leading-[24px] mb-0">After entering an amount, investors see a full summary of their investment, including the amount, pool, APY, estimated returns, pool share, and a warning that funds will be locked for 30–40 days.</p>
-                <p className="leading-[24px]">{`I placed the confirmation checkbox after these details so investors understand what they're committing to before agreeing.`}</p>
-              </div>
-              <div className="aspect-[1512/982] relative shrink-0 w-full" data-node-id="325:127" data-name="MacBook Pro 14_ - 40 (1) 1">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro144011} />
-              </div>
-            </div>
-          </div>
-
-          {/* Why two screens? */}
-          <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[20px] items-start text-[15px] w-full" data-node-id="325:128">
-            <p className="leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:129" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Why two screens?
-            </p>
-            <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:130" style={{ fontVariationSettings: '"wdth" 100' }}>
-              The deposit modal asks how much. The review modal asks are you certain. They are different questions and they deserve different screens. Collapsing them into one would move too fast for a decision that locks capital for over a month
-            </p>
-          </div>
-
-          {/* Pool Detail Page */}
-          <div className="flex flex-col gap-[40px] items-start w-full" data-node-id="325:131">
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[20px] items-start relative shrink-0 w-full" data-node-id="325:133">
-              <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#34e619] text-[15px] w-[121px]" data-node-id="325:134" style={{ fontVariationSettings: '"wdth" 100' }}>
-                Pool Detail Page
-              </p>
-              <div className="text-white w-full whitespace-pre-wrap" data-node-id="325:135" style={{ fontVariationSettings: '"wdth" 100' }}>
-                <p className="leading-[24px] mb-0 text-[15px]">The pool detail page brings everything investors need to monitor their investments and make decisions into one place. The challenge was presenting all this information without overwhelming them.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[15px]">I focused on the order of information, making sure each section answers the investor's next question and keeps the experience clear and easy to navigate.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[#fcce00] text-[15px]">The hierarchy of information</p>
-                <p className="leading-[24px] mb-0 text-[15px]">Current amount funded leads at $30,000 in the largest type on the page. That is the number the investor cares about most, and interest tho small with different color( blue) will be seen first . Pool Info sits alongside it — total funded, APY, utilisation, pool progress, investor count — in smaller type, right column. Supporting data that never competes with the headline. The eye lands on the most important number first and moves to detail only when it needs to.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[#fcce00] text-[15px]">Pool Criteria + Edit</p>
-                <p className="leading-[24px] mb-0 text-[15px]">Invested, uninvested, loan range, loan interest, and target repayment duration are all visible and editable without leaving the page. Pool managers need to adjust parameters as market conditions change — burying that action in a settings page would create unnecessary friction for a task that needs to happen quickly.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[#fcce00] text-[15px]">Pool Performance — Chart</p>
-                <p className="leading-[24px] mb-0 text-[15px]">The green area chart with $3,706 earnings and 99.6% repayment success rate does the most important trust work on the page. A number alone means little. A number with a trend line behind it means the platform has history, and history means reliability. The chart communicates growth trajectory without the investor having to interpret raw data.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[#fcce00] text-[15px]">Recent Transactions — Table</p>
-                <p className="leading-[24px] mb-0 text-[15px]">Transaction history lives last. Audit information belongs at the bottom — it answers what happened, not what is happening now. Status chips — Rejected in red, Successful in green, Processing in yellow — communicate outcome at a glance without reading the full row.</p>
-                <p className="leading-[24px] mb-0 text-[15px]">​</p>
-                <p className="leading-[24px] mb-0 text-[#fcce00] text-[15px]">Deposit button — persistent</p>
-                <p className="leading-[24px] text-[15px]">The Deposit button sits mid-page, always visible while the investor reviews pool performance. If the data is convincing, the action to add more capital is immediately reachable. The proximity of performance data to the deposit action is intentional — conviction should lead directly to action without friction in between.</p>
-              </div>
-            </div>
-            <div className="aspect-[3460/4096] relative shrink-0 w-full" data-node-id="325:136" data-name="MacBook Pro 14_ - 41 (1) 1">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro144111} />
-            </div>
-          </div>
-
-          {/* Explore Pools — Table & Cards */}
-          <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:137">
-            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#39ff14] text-[15px] w-[313px]" data-node-id="325:138" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Explore Pools — When i use table and cars
-            </p>
-            <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="325:139">
-              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[167px]" data-node-id="325:140" style={{ fontVariationSettings: '"wdth" 100' }}>
-                Explore Pools — Table
-              </p>
-              <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="325:141">
-                <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] text-white w-full" data-node-id="325:142" style={{ fontVariationSettings: '"wdth" 100' }}>
-                  <p className="leading-[24px] mb-0">Investors use the Explore page to compare pools, returns, epoch lengths, and risk before committing. A table makes this easier by keeping key information aligned, so investors can compare options quickly without jumping between cards.</p>
-                  <p className="leading-[24px]">It also gives the platform a more structured, professional feel that matches the importance of financial decisions.</p>
-                </div>
-                <div className="h-[221px] relative shrink-0 w-[340px]" data-node-id="325:143" data-name="MacBook Pro 14_ - 77 (1) 1">
-                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro147711} />
+                <div className="text-white w-full">
+                  <p data-node-id="325:106" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    I designed a three-screen onboarding flow with real interface previews to explain Centralized and Custom Pools. Investors can choose guided or self-directed onboarding and skip steps, keeping the experience flexible and user-controlled.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:144">
-              <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[205px]" data-node-id="325:145" style={{ fontVariationSettings: '"wdth" 100' }}>
-                Custom Pool — Card Design
+            <div className="flex flex-col gap-[36.829px] items-start w-full" data-node-id="325:107">
+              <div className="h-[431.378px] relative shrink-0 w-[349px]" data-node-id="325:108" data-name="Frame 1000004690 1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046901} />
+              </div>
+              <div className="h-[467.695px] relative shrink-0 w-[349px]" data-node-id="325:109" data-name="Frame 1000004689 1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046891} />
+              </div>
+              <div className="h-[467.695px] relative shrink-0 w-[349px]" data-node-id="325:110" data-name="Frame 1000004691 1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame10000046911} />
+              </div>
+            </div>
+          </div>
+
+          {/* 11. Investment Flow — Deposit & Review */}
+          <div className="flex flex-col gap-[32px] items-start w-full">
+            {/* Investment Flow heading + Deposit Modal */}
+            <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:116">
+              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] text-[#39ff14] text-[15px] whitespace-nowrap" data-node-id="325:117" style={{ fontVariationSettings: '"wdth" 100' }}>{`Investment Flow — Deposit & Review`}</p>
+              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:119" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Deposit Modal
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:146" style={{ fontVariationSettings: '"wdth" 100' }}>
-                Each card surfaces exactly what an investor needs to evaluate a pool in under five seconds — pool name, status, total value, return per epoch, TVL, epoch start date, minimum deposit, and one action: View details. Nothing more competes for attention.
+              <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] text-[15px] text-white w-full" data-node-id="325:121" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Investors can enter a custom amount or choose a preset from <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">$100 to $60K</strong>, with their available balance visible upfront to help them make informed decisions. I kept this step focused on input, avoiding premature confirmation before they’ve decided how much to invest.
+              </p>
+              <div className="h-[218px] relative shrink-0 w-[336px]" data-node-id="325:122" data-name="MacBook Pro 14_ - 39 (2) 1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro143921} />
+              </div>
+            </div>
+
+            {/* Review Modal */}
+            <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:123">
+              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:124" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Review Modal
+              </p>
+              <div className="flex flex-col gap-[64px] items-start w-full" data-node-id="325:125">
+                <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] leading-[24px] text-white w-full" data-node-id="325:126" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p>{`I designed an investment summary showing the amount, pool, APY, estimated returns, pool share, and 30–40-day fund lock. The confirmation checkbox comes after these details, ensuring investors understand their commitment before agreeing.`}</p>
+                </div>
+                <div className="aspect-[1512/982] relative shrink-0 w-full" data-node-id="325:127" data-name="MacBook Pro 14_ - 40 (1) 1">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro144011} />
+                </div>
+              </div>
+            </div>
+
+            {/* Why two screens? */}
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start text-[15px] w-full" data-node-id="325:128">
+              <p className="leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:129" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Why two screens?
+              </p>
+              <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:130" style={{ fontVariationSettings: '"wdth" 100' }}>
+                The deposit modal asks how much. The review modal asks are you certain. They are different questions and they deserve different screens. Collapsing them into one would move too fast for a decision that locks capital for over a month
               </p>
             </div>
-            <div className="h-[229px] relative shrink-0 w-[352px]" data-node-id="325:148" data-name="MacBook Pro 14_ - 4 6">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro1446} />
+
+            {/* Pool Detail Page */}
+            <div className="flex flex-col gap-[64px] items-start w-full" data-node-id="325:131">
+              <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[16px] items-start relative shrink-0 w-full" data-node-id="325:133">
+                <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#34e619] text-[15px] w-[121px]" data-node-id="325:134" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Pool Detail Page
+                </p>
+                <div className="text-white w-full whitespace-pre-wrap" data-node-id="325:135" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[24px] mb-0 text-[15px]">{`I designed the pool detail page to bring key investment information and actions into one place, prioritising clarity, easy navigation, and informed decision-making without overwhelming investors.`}</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">​</p>
+                  <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">The hierarchy of information</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">{`I prioritised the $30,000 funded amount as the main visual focus, placing supporting metrics like APY, utilisation, pool progress, and investor count alongside it in smaller type. This hierarchy helps investors find the most important information first.`}</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">​</p>
+                  <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">Pool Criteria + Edit</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">Invested, uninvested, loan range, loan interest, and target repayment duration are all visible and editable without leaving the page. Pool managers need to adjust parameters as market conditions change — burying that action in a settings page would create unnecessary friction for a task that needs to happen quickly.</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">​</p>
+                  <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">Pool Performance — Chart</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">{`The earnings chart ($3,706) and 99.6% repayment success rate build investor confidence. The graph helps investors visualise growth over time, making performance and reliability easier to understand at a glance.`}</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">​</p>
+                  <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">Recent Transactions — Table</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">Transaction history lives last. Audit information belongs at the bottom — it answers what happened, not what is happening now. Status chips — Rejected in red, Successful in green, Processing in yellow — communicate outcome at a glance without reading the full row.</p>
+                  <p className="leading-[24px] mb-0 text-[15px]">​</p>
+                  <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">Deposit button — persistent</p>
+                  <p className="leading-[24px] text-[15px]">The Deposit button sits mid-page, always visible while the investor reviews pool performance. If the data is convincing, the action to add more capital is immediately reachable. The proximity of performance data to the deposit action is intentional — conviction should lead directly to action without friction in between.</p>
+                </div>
+              </div>
+              <div className="aspect-[3460/4096] relative shrink-0 w-full" data-node-id="325:136" data-name="MacBook Pro 14_ - 41 (1) 1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro144111} />
+              </div>
+            </div>
+
+            {/* Explore Pools — Table & Cards */}
+            <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:137">
+              <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#39ff14] text-[15px] w-[313px]" data-node-id="325:138" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Explore Pools — When i use table and cars
+              </p>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="325:139">
+                <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[167px]" data-node-id="325:140" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Explore Pools — Table
+                </p>
+                <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="325:141">
+                  <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] text-white w-full" data-node-id="325:142" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    <p className="leading-[24px] mb-[12px]">I designed the Explore page as a comparison table, helping investors evaluate pools, returns, epoch lengths, and risk side by side before investing.</p>
+                    <p className="leading-[24px]">The structured layout makes comparisons quicker and supports confident, informed financial decisions.</p>
+                  </div>
+                  <div className="h-[221px] relative shrink-0 w-[340px]" data-node-id="325:143" data-name="MacBook Pro 14_ - 77 (1) 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro147711} />
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:144">
+                <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[205px]" data-node-id="325:145" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Custom Pool — Card Design
+                </p>
+                <p className="relative shrink-0 text-white w-full" data-node-id="325:146" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Each card surfaces exactly what an investor needs to evaluate a pool in under five seconds — pool name, status, total value, return per epoch, TVL, epoch start date, minimum deposit, and one action: View details. Nothing more competes for attention.
+                </p>
+              </div>
+              <div className="h-[229px] relative shrink-0 w-[352px]" data-node-id="325:148" data-name="MacBook Pro 14_ - 4 6">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMacBookPro1446} />
+              </div>
             </div>
           </div>
         </div>
@@ -404,28 +401,28 @@ export default function ForfalifyMobile({
           <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#34e619] text-[15px] w-[256px]" data-node-id="325:154" style={{ fontVariationSettings: '"wdth" 100' }}>
             03 Merchant Loan Application — Pool Search to Funding
           </p>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[20px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:155">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[16px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:155">
             <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[243px]" data-node-id="325:156" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 1 — Invited Landing Screen
             </p>
             <div className="text-white w-full" data-node-id="325:157" style={{ fontVariationSettings: '"wdth" 100' }}>
-              <p className="leading-[24px] mb-0">{`I designed a personalised welcome screen that tells co-merchants who invited them, why they're here, and the invoice details upfront. A four-step guide explains what comes next: account creation, KYC verification, business verification, and signing.`}</p>
-              <p className="leading-[24px]">The goal was to remove confusion from the start, so co-merchants understand what to expect before proceeding.</p>
+              <p className="leading-[24px]">{`I designed a personalised welcome screen showing who invited the co-merchant and the invoice details. A four-step guide outlines account creation, KYC, business verification, and signing, setting clear expectations from the start.`}</p>
             </div>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[20px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:158">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:158">
             <p className="font-['Instrument_Sans:Bold'] font-bold relative shrink-0 text-[#e1be3f] text-[15px] w-full" data-node-id="325:159" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 2 — Dashboard with Pending Signing Request
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:160" style={{ fontVariationSettings: '"wdth" 100' }}>{`After creating their account the co-merchant lands on their dashboard. The KYC prompt sits at the top — a necessary gate before signing can proceed, surfaced immediately so there is no confusion about why the invoice is not yet signable. Below it, the pending invoice signing requests appear as cards — merchant name, industry, rating, maturity date, minimum deposit, and close date. The urgency chip showing "32 days due" in red creates appropriate time awareness without being aggressive. The co-merchant can see at a glance what is waiting for them and how long they have.`}</p>
+            <p className="relative shrink-0 text-white w-full" data-node-id="325:160" style={{ fontVariationSettings: '"wdth" 100' }}>
+              I placed the KYC prompt upfront to clarify that verification is required before signing. Pending requests show key invoice details, while a red “32 days due” chip highlights deadlines and helps co-merchants prioritise action.
+            </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[20px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:161">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium'] font-medium gap-[16px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:161">
             <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[248px]" data-node-id="325:162" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 3 — Review Before You Sign
             </p>
             <div className="text-white w-full" data-node-id="325:163" style={{ fontVariationSettings: '"wdth" 100' }}>
-              <p className="leading-[24px] mb-0">{`I designed the signing page to make the co-merchant's financial obligations clear before they commit. Key details, including the invoice amount, buyer, repayment date, and loan duration, appear upfront, followed by a yellow warning explaining their shared repayment responsibility.`}</p>
-              <p className="leading-[24px]">{`Before signing, they must confirm that they've read and understood the terms. This follows the same approach across Forfaitify: making important information clear and ensuring consent is given, not assumed.`}</p>
+              <p className="leading-[24px]">{`I designed the signing page to make co-merchants’ financial obligations clear before they commit. Key details, including the invoice amount, buyer, repayment date, and loan duration, appear upfront, followed by a yellow warning explaining their shared repayment responsibility. A mandatory confirmation ensures they acknowledge the terms before signing`}</p>
             </div>
           </div>
           <div className="flex flex-col gap-[8.19px] items-start w-full" data-node-id="325:164">
@@ -444,37 +441,39 @@ export default function ForfalifyMobile({
         </div>
 
         {/* 13. 02 Merchant Loan Application — Pool Search to Funding */}
-        <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:202">
+        <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:202">
           <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#34e619] text-[15px] w-[334px]" data-node-id="325:207" style={{ fontVariationSettings: '"wdth" 100' }}>
             02 Merchant Loan Application — Pool Search to Funding
           </p>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:208">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:208">
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[233px]" data-node-id="325:209" style={{ fontVariationSettings: '"wdth" 100' }}>{`Screen 1 — Pool Detail & Apply`}</p>
             <p className="relative shrink-0 text-white w-full" data-node-id="325:210" style={{ fontVariationSettings: '"wdth" 100' }}>
-              The merchant lands on the pool detail page showing everything relevant to their decision — pool name, countries served, loan range, available capital, APY, and a full description of what the pool finances. The loan tier table sits below, breaking down the available terms by duration, rate, and range. The merchant is not comparing dozens of pools here — they have already browsed and selected the one that fits their invoice. This page is confirmation, not discovery. The Apply for Loan button sits prominently once they are satisfied with the terms.
+              I designed the pool detail page to help merchants confirm the right financing option, presenting key details, available capital, APY, and loan terms in one place. A prominent Apply for Loan button makes the next step clear once they’re satisfied with the terms.
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:211">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:211">
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[227px]" data-node-id="325:212" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 2 — Select Loan Tier
             </p>
             <p className="relative shrink-0 text-white w-full" data-node-id="325:213" style={{ fontVariationSettings: '"wdth" 100' }}>
-              After clicking Apply, a modal presents the available loan tiers as selectable cards — not a table, not a dropdown. Each tier card shows duration, interest rate, and loan range side by side. The card format is the correct choice here because the merchant is making a single selection between a small number of options, not comparing across many attributes. Seeing three cards simultaneously lets the merchant evaluate the trade-off — shorter duration, higher rate versus longer duration, lower rate — without having to read a table row by row. One tap to select, one tap to continue.
+              I used selectable cards to present loan tiers side by side, showing duration, interest rates, and loan ranges. Cards work best here because merchants are choosing between a small number of options, not comparing multiple attributes across a large dataset. This makes trade-offs easier to understand and selection quicker.
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:214">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:214">
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:215" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 3 — Review Loan Application
             </p>
             <p className="relative shrink-0 text-white w-full" data-node-id="325:216" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Before the application is submitted, the merchant sees a full summary — invoice amount, selected tier, interest rate, repayment duration, and total repayment figure. The same two-confirmation logic as the investor flow applies here. The merchant entered their preferences across two screens. The review screen assembles those choices into one complete picture before anything is committed. A confirm checkbox sits above the Submit button — the merchant actively acknowledges the terms rather than clicking through passively.
+              Before submitting, merchants review a summary of the invoice amount, selected loan tier, interest rate, repayment duration, and total repayment. Following the same confirmation pattern as the investor flow, a checkbox above the Submit button requires merchants to actively acknowledge the terms before committing, helping prevent accidental submissions.
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:217">
+          <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start relative shrink-0 text-[15px] w-full" data-node-id="325:217">
             <p className="leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-full" data-node-id="325:218" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 4 — Loan Application Successful
             </p>
-            <p className="leading-[51px] relative shrink-0 text-white w-full" data-node-id="325:219" style={{ fontVariationSettings: '"wdth" 100' }}>{`The success modal confirms the application has been submitted and is pending investor funding. A secondary checkbox — "Share this pool with friends" — appears at the bottom. This is a quiet but considered growth mechanic. A merchant who has just successfully applied is at their highest point of satisfaction with the platform. That is exactly the right moment to ask them to share it — not during onboarding, not in an email campaign, but at the peak of the experience when the product has just delivered on its promise.`}</p>
+            <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:219" style={{ fontVariationSettings: '"wdth" 100' }}>
+              The success modal confirms the application has been submitted and is awaiting investor funding. I added a secondary “Share this pool with friends” option as a subtle growth mechanic, placing it immediately after a successful application when merchants have just experienced the platform’s value. This encourages sharing at a natural moment without interrupting the application flow.
+            </p>
           </div>
           <div className="content-stretch flex flex-col gap-[8.19px] items-start w-full" data-node-id="325:220">
             <div className="h-[378.549px] relative shrink-0 w-[350px]" data-node-id="325:221" data-name="MacBook Pro 14_ - 41 (5) 1">
@@ -490,7 +489,7 @@ export default function ForfalifyMobile({
         </div>
 
         {/* 14. Flow for getting invoice financed */}
-        <div className="flex flex-col gap-[16px] items-start w-full" data-node-id="325:168">
+        <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:168">
           <div className="bg-white content-stretch flex items-center justify-center px-[10px] py-[4px] relative shrink-0" data-node-id="325:169">
             <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[1.45] relative shrink-0 text-[#060606] text-[15px] whitespace-nowrap" data-node-id="325:170" style={{ fontVariationSettings: '"wdth" 100' }}>
               Flow for getting invoice financed
@@ -500,27 +499,33 @@ export default function ForfalifyMobile({
             <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#34e619] text-[15px] w-[312px]" data-node-id="325:176" style={{ fontVariationSettings: '"wdth" 100' }}>
               01 Creating invoice
             </p>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:177">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:177">
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[142px] whitespace-pre-wrap" data-node-id="325:178" style={{ fontVariationSettings: '"wdth" 100' }}>{`Fill basic  details`}</p>
               <p className="relative shrink-0 text-white w-full" data-node-id="325:179" style={{ fontVariationSettings: '"wdth" 100' }}>
-                The first screen asks for foundational details — merchant name, invoice number, billing address, total amount, due date, and co-merchant. One form, one job: establish the invoice before anything else. Nothing about pools, nothing about funding terms. A merchant who handles trade documentation regularly completes this in under two minutes
+                I designed a single form for merchants to enter essential invoice details, including the amount, due date, billing address, and co-merchant. By focusing on one task at a time, the flow keeps invoice creation simple and efficient, with experienced merchants able to complete it in under two minutes.
               </p>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:180">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:180">
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[274px]" data-node-id="325:181" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Upload Supporting Documents
               </p>
               <p className="relative shrink-0 text-white w-full" data-node-id="325:182" style={{ fontVariationSettings: '"wdth" 100' }}>
-                Once the invoice is created, the merchant uploads supporting documentation. The upload screen is deliberately minimal — a clear drop zone, brief instruction, and a confirm terms checkbox before proceeding. The merchant acknowledges what they are submitting before the platform processes it. Consent at the moment of submission, not buried in onboarding terms.
+                {"I kept the document upload screen minimal, with a clear drop zone and a terms checkbox. This ensures merchants acknowledge the terms "}
+                <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">at the point of submission</strong>
+                {", rather than relying on buried onboarding agreements."}
               </p>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:183">
-              <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[370px]" data-node-id="325:184" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:183">
+              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[15px] w-[370px]" data-node-id="325:184" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Share Invoice for Co-Merchant Signatures
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:185" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once the application is submitted, a success modal confirms the invoice has been created and immediately presents the share link as the primary action. The invoice cannot be funded until all co-merchants have signed. The share link sits as the first action at the moment the merchant is most motivated to move the deal forward — no navigating to a dashboard, no finding a share option in a menu. "I'll do it later" sits below as a secondary option for merchants who need to contact their co-merchant through a specific channel first.`}</p>
+              <p className="relative shrink-0 text-white w-full" data-node-id="325:185" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {"After submission, a success modal makes "}
+                <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">sharing the invoice the primary action</strong>
+                {", helping merchants collect required co-merchant signatures without extra navigation. “I’ll do it later” remains available as a secondary option."}
+              </p>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[12px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:186">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:186">
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[385px]" data-node-id="325:187" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Signatures Collected → Approval → Funding
               </p>

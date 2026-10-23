@@ -22,7 +22,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex w-full items-center justify-center bg-white px-[10px] py-[4px] sm:w-fit">
       <p
-        className="case-study-section-label font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[#060606] text-[15px] sm:text-[20px] whitespace-nowrap"
+        className="case-study-section-label font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[#060606] text-[15px] whitespace-nowrap"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {children}
@@ -53,13 +53,13 @@ function ResearchCard({
       </div>
       <div className="flex flex-col gap-[19px] px-[30px] py-[30px] flex-1">
         <p
-          className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38.4px] text-[32px] text-white"
+          className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[34px] text-[24px] sm:text-[28px] text-white"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {title}
         </p>
         <p
-          className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-white"
+          className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-white"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {body}
@@ -136,15 +136,15 @@ export default function OwambePage() {
             <div className="flex min-w-0 flex-col gap-[40px]">
           <section className="flex scroll-mt-24 flex-col gap-[16px] sm:gap-[20px]" id="owambe-overview">
             <SectionLabel>Overview</SectionLabel>
-            <div className="flex flex-col gap-[18px] text-white">
+            <div className="flex flex-col gap-[16px] text-white">
               <p
-                className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[51px] text-[32px]"
+                className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[20px] sm:text-[22px]"
                 style={{ fontVariationSettings: '"wdth" 100' }}
               >
                 The outfit in your head never matches the one that arrives
               </p>
               <div
-                className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] flex flex-col gap-[16px]"
+                className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] flex flex-col gap-[16px]"
                 style={{ fontVariationSettings: '"wdth" 100' }}
               >
                 <p>Buying outfits for owambe events can be a frustrating process. You choose a fabric, explain your preferred style to a tailor, and wait weeks, only to end up with something different from what you imagined.</p>
@@ -156,15 +156,15 @@ export default function OwambePage() {
           {/* Research & Discovery */}
           <section className="flex scroll-mt-24 flex-col gap-[16px] sm:gap-[20px]" id="owambe-research">
             <SectionLabel>Research &amp; Discovery</SectionLabel>
-            <div className="flex flex-col gap-[18px] text-white">
+            <div className="flex flex-col gap-[16px] text-white">
               <p
-                className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[51px] text-[32px]"
+                className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[20px] sm:text-[22px]"
                 style={{ fontVariationSettings: '"wdth" 100' }}
               >
                 I spoke to the people who actually buy and also tailors
               </p>
               <p
-                className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]"
+                className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]"
                 style={{ fontVariationSettings: '"wdth" 100' }}
               >
                 Before designing a single screen I conducted two distinct research tracks — users who buy occasion wear, and tailors who make it
@@ -195,7 +195,7 @@ export default function OwambePage() {
 
           {/* Closing paragraph */}
           <p
-            className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-white"
+            className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-white"
             style={{ fontVariationSettings: '"wdth" 100' }}
           >
             {`Speaking to tailors was the decision that shaped the most consequential design choice on the platform. If I had only spoken to users I would have assumed a fixed flow — browse fabrics, then select a style, then try on. The tailors showed me that real people don't start from the same place. Some have the fabric. Some have the look. The design had to serve both without penalising either.`}
@@ -217,7 +217,7 @@ export default function OwambePage() {
                   {`Why Near-black & gold?`}
                 </p>
                 <p
-                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-black"
+                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-black"
                   style={{ fontVariationSettings: '"wdth" 100' }}
                 >
                   {`The most consistent frustration users described was receiving an outfit that didn't look like what they had in mind. They had a mental image — the finished thing didn't match it. This single finding became the product's core promise.`}
@@ -238,7 +238,7 @@ export default function OwambePage() {
                   {`Playfair Display — display & headings`}
                 </p>
                 <p
-                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-black"
+                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-black"
                   style={{ fontVariationSettings: '"wdth" 100' }}
                 >
                   Playfair Display carries the editorial weight of a fashion brand — the kind of typeface you see in Vogue Nigeria, in high-end boutique identities, in anything that wants to communicate considered taste. For an occasion wear platform where the product is inherently about how you present yourself, the typeface needed to match that aspiration.
@@ -269,7 +269,7 @@ export default function OwambePage() {
                   The Dress Room — dark canvas
                 </p>
                 <p
-                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-black"
+                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-black"
                   style={{ fontVariationSettings: '"wdth" 100' }}
                 >
                   The Dress Room uses a near-black background deliberately. Fabrics and styles need to be the visual subject — not the interface. A dark background makes every fabric swatch and style thumbnail pop without any additional treatment. It also creates a studio photography feel — the kind of controlled environment where what you are evaluating is seen at its best.
@@ -285,7 +285,7 @@ export default function OwambePage() {
                   Category names as navigation
                 </p>
                 <p
-                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-black"
+                  className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-black"
                   style={{ fontVariationSettings: '"wdth" 100' }}
                 >
                   {`Senator. Kaftan. Agbada. Iro & Buba. These are not product tags — they are cultural identifiers that every Nigerian occasion wear buyer already knows. Using them as the primary navigation labels means the platform speaks the language of its users from the first screen.`}
@@ -300,7 +300,7 @@ export default function OwambePage() {
           {/* Label */}
           <div className="flex w-full items-center justify-center bg-white px-[10px] py-[4px] sm:w-fit">
             <p
-              className="case-study-section-label font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[#060606] text-[15px] sm:text-[20px] whitespace-nowrap"
+              className="case-study-section-label font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[#060606] text-[15px] whitespace-nowrap"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Design decisions
@@ -310,10 +310,10 @@ export default function OwambePage() {
           {/* Decision 1 */}
           <div className="flex flex-col gap-[28px]">
             <div className="text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
-              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.3] sm:leading-[51px] text-[24px] sm:text-[32px] mb-2 sm:mb-0">
+              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[20px] sm:text-[22px] mb-[16px]">
                 Decision 1 — Dynamic Flow: Fabric First or Style First
               </p>
-              <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+              <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]">
                 The single most important architectural decision on Owambe was making the entry point dynamic. A user who arrives knowing the fabric they want takes a different path from a user who arrives knowing the style they want — and both paths had to be equally valid, equally smooth, and arrive at the same destination: the Dress Room
               </p>
             </div>
@@ -403,7 +403,7 @@ export default function OwambePage() {
 
             {/* Path A / B paragraph */}
             <p
-              className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px] text-white"
+              className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] text-white"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               {`Path A is for the decisive user — they know what they want, they want to get there fast. Path B is for the browser — they want to explore, save their options, and come back to the Dress Room when they have found both elements. The platform does not impose one mental model on users who have another. The decision came directly from the tailors' research: in the real world, people start from wherever they are. The design reflects that.`}
@@ -411,29 +411,29 @@ export default function OwambePage() {
           </div>
 
           {/* Decision 2 */}
-          <div className="flex flex-col gap-[28px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
-            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.3] sm:leading-[51px] text-[24px] sm:text-[32px]">
+          <div className="flex flex-col text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[20px] sm:text-[22px] mb-[16px]">
               Decision 2 — The Dress Room
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] mb-[12px]">
               The Dress Room is the central interface of the platform and the direct design response to the core research finding. Users described not being able to visualise the finished outfit before committing. The Dress Room gives them that visualisation — a body template wearing the selected style in the selected fabric, with style preferences like sleeve length and neckline adjustable in real time, and a live price calculated as they build the outfit.
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]">
               Previous styles and previous fabrics are saved and visible in the Dress Room panel, so the user can revisit combinations they considered earlier without starting over. Save and Rooms sit in the top right — a Dress Room session can be paused, named, and returned to at any point.
             </p>
-            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[20px] text-[#fcce00] sm:text-[28px] sm:leading-[51px]">
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[18px] text-[#fcce00] mt-[32px] mb-[16px]">
               The background — not too dark, not too bright
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]">
               I chose a mid-tone grey background to make sure both dark and light fabrics remain visible. Dark backgrounds hide deeper colors, while bright ones wash out lighter fabrics. The goal was to keep the focus on the outfit, not the background.
             </p>
-            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[20px] text-[#fcce00] sm:text-[28px] sm:leading-[51px]">
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[18px] text-[#fcce00] mt-[32px] mb-[16px]">
               Making Measurements Easy to Update
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] mb-[12px]">
               Users can add their measurements during sign-up, but the step is optional. I also made measurements accessible through Settings and added an Edit Measurement button in the Dress Room, so users can update their details without leaving the try-on experience.
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]">
               This gives users the freedom to explore first and provide their measurements when they're ready to try on an outfit.
             </p>
           </div>
@@ -448,14 +448,14 @@ export default function OwambePage() {
           </div>
 
           {/* Decision 3 */}
-          <div className="flex flex-col gap-[28px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
-            <p className="font-['Instrument_Sans:SemiBold',sans-serif] font-semibold leading-[1.3] sm:leading-[51px] text-[24px] sm:text-[32px]">
+          <div className="flex flex-col text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.4] text-[20px] sm:text-[22px] mb-[16px]">
               Decision 3 — Measurements: Required but Skippable
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] mb-[12px]">
               {"I made measurements optional during sign-up to avoid losing users before they experience the platform's value. They can skip the step and explore outfits first, then add or update their measurements through Settings or directly in the Dress Room."}
             </p>
-            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px] sm:text-[18px]">
+            <p className="font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1.6] text-[15px]">
               {"This way, users aren't forced to commit too early, and they're more likely to provide accurate measurements when they find an outfit they actually want to try on."}
             </p>
           </div>

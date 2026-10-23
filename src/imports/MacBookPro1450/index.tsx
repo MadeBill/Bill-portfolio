@@ -13,9 +13,12 @@ function Frame() {
 
 function Frame2() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] text-[18px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`Illustration — Newspaper & Engraving Style`}</p>
-      <p className="relative shrink-0 text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`Trade finance has a history that lives in print — paper invoices, stamped documents, broadsheet financial reporting. The three illustrations reference that heritage directly: a verified invoice in aged newspaper texture, an engraving-style hand holding a magnifying glass, a pile of international currencies as a physical tangible object. The contrast between the aged illustration style and the clean digital interface communicates the platform's core proposition in one visual moment — old trust, new technology.`}</p>
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`Illustration — Newspaper & Engraving Style`}</p>
+      <div className="relative shrink-0 text-white w-full space-y-[12px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p>{`Trade finance has a long history rooted in paper invoices, stamped documents, and financial records. I used three vintage-style illustrations to reflect that heritage, combining aged textures, engraved details, and physical currency.`}</p>
+        <p>{`The contrast with the clean digital interface reinforces Forfaitify’s core idea: traditional trust, reimagined through technology.`}</p>
+      </div>
     </div>
   );
 }
@@ -49,7 +52,7 @@ function Frame11() {
 function Frame4() {
   return (
     <div className="content-stretch flex gap-[20px] items-center justify-center relative shrink-0">
-      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#39ff14] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Color — Blue
       </p>
       <div className="bg-[#2c43eb] h-[44px] relative rounded-[8px] shrink-0 w-[45px]" />
@@ -59,10 +62,10 @@ function Frame4() {
 
 function Frame3() {
   return (
-    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[1274px]">
+    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[1274px]">
       <Frame4 />
-      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] min-w-full relative shrink-0 text-[18px] text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        Blue is not the default fintech color by accident. It reduces anxiety, signals institutional credibility, and communicates stability — the three things an investor needs before committing capital. I used it sparingly: primary actions, active states, and trust signals only. When blue appears on Forfaitify, it means something.
+      <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] min-w-full relative shrink-0 text-[18px] text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        I used blue selectively to communicate trust, stability, and confidence, especially in a product where investors commit capital.
       </p>
     </div>
   );
@@ -70,8 +73,8 @@ function Frame3() {
 
 function Frame6() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] text-[18px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`Typography — Plus Jakarta Sans & Inter`}</p>
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`Typography — Plus Jakarta Sans & Inter`}</p>
       <p className="relative shrink-0 text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         I used Plus Jakarta Sans for headings and UI elements because of its clean, confident look, and Inter for body text to keep information easy to read, especially on data-heavy screens. One helps users scan quickly, while the other makes longer content easier to follow.
       </p>
@@ -102,8 +105,8 @@ function Frame5() {
 
 function Frame7() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] text-[18px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         Icons — Inline
       </p>
       <p className="relative shrink-0 text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -115,8 +118,8 @@ function Frame7() {
 
 function Frame13() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[20px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
-      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] text-[18px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-[1274px]">
+      <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         Spacing — 8px base, fintech standard
       </p>
       <p className="relative shrink-0 text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>{`The fintech spacing convention exists because it has been validated at scale across millions of users making financial decisions. Reinventing it would have been design for its own sake, not for the user's benefit.`}</p>

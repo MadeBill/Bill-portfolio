@@ -102,15 +102,7 @@ export default function HeroSection() {
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">
                 4+ years of experience
               </strong>
-              {" across "}
-              <span className="text-[#ff0000]">fintech</span>
-              {", SaaS, "}
-              <span className="text-[#ffff00]">edtech</span>
-              {", "}
-              <span className="text-[#00ff00]">gaming</span>
-              {", and "}
-              <span className="text-[#ff00ff]">consumer apps</span>
-              {". I design products users enjoy that solve problems, improve engagement, and drive business growth and revenue."}
+              {" across fintech, SaaS, edtech, gaming, and consumer apps. I design products users enjoy that solve problems, improve engagement, and drive business growth and revenue."}
             </p>
             <p>
               {"At Ndloo, I led product development from concept to launch. The product was later acquired while having "}

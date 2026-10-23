@@ -16,37 +16,37 @@ export default function WebprebuiltWorkspaceSection() {
       <div className="mx-auto max-w-[1274px]">
         <div data-node-id="245:21">
           <h2
-            className="case-study-section-label w-full bg-white px-[10px] py-1 text-center font-['Instrument_Sans:Bold'] text-[15px] font-bold leading-[1.45] text-[#060606] sm:w-fit sm:text-[20px]"
+            className="case-study-section-label w-full bg-white px-[10px] py-[4px] text-center font-['Instrument_Sans:Bold'] text-[15px] font-bold leading-[1.45] text-[#060606] sm:w-fit"
             style={{ fontVariationSettings: '"wdth" 100' }}
           >
-            Research and Discovery
+            The Workspace
           </h2>
         </div>
 
         <div
-          className="mt-[24px] sm:mt-[40px] space-y-4 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] sm:text-[18px]"
+          className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
           data-node-id="245:25"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
-          <h3 className="font-['Instrument_Sans:Bold'] text-[24px] sm:text-[32px] font-bold leading-[1.3] sm:leading-[51px] mb-2 sm:mb-4">
+          <h3 className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]">
             Decision 1 — The Workspace
           </h3>
           <p>
             The workspace is the first thing users see after logging in. Each purchased website appears as a card with a preview of the actual site, its name, business niche, and status. Statuses like Live, In Progress, Bugs, and Bookmark help users spot what needs attention at a glance, without opening each website.
           </p>
-          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold pt-4">
+          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold leading-[1.4] mt-[32px] mb-[16px]">
             Quick Filtering
           </p>
           <p>
             I added filter tabs for All, Live, In Progress, Bugs, and Bookmark so users can quickly narrow down their websites. For an SME managing multiple sites, finding the one that needs attention takes a single click instead of checking each one individually.
           </p>
-          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold pt-4">
+          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold leading-[1.4] mt-[32px] mb-[16px]">
             Workspace Switching
           </p>
           <p>
             I placed a workspace switcher in the top-left corner for users managing multiple brands or businesses. This lets them keep each business in its own workspace and switch between them without mixing up their websites or workflows.
           </p>
-          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold pt-4">
+          <p className="font-['Instrument_Sans:Bold'] text-[#fcce00] text-[18px] font-bold leading-[1.4] mt-[32px] mb-[16px]">
             Explore lives here too
           </p>
           <p>
