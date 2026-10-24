@@ -19,9 +19,9 @@ export default function WebprebuiltOverviewSection() {
 
         <div className="mt-0 scroll-mt-24 sm:mt-[40px]" id="webprebuilt-overview" data-node-id="238:6792">
           <SectionLabel>Overview</SectionLabel>
-          <div className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]">
+          <div className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]">
             <h3
-              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]"
+              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px] text-white"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Nigerian SMEs need a website. They don&apos;t need to wait two months for one.
@@ -36,11 +36,11 @@ export default function WebprebuiltOverviewSection() {
           </div>
         </div>
 
-        <div className="mt-[32px] sm:mt-[40px] scroll-mt-24" id="webprebuilt-problem" data-node-id="238:6796">
+        <div className="mt-[32px] sm:mt-[80px] scroll-mt-24" id="webprebuilt-problem" data-node-id="238:6796">
           <SectionLabel>The problem</SectionLabel>
-          <div className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]">
+          <div className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]">
             <h3
-              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]"
+              className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px] text-white"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Two months is too long. Most SMEs love getting their website so fast.
@@ -63,7 +63,7 @@ export default function WebprebuiltOverviewSection() {
               Time
             </h3>
             <p
-              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
+              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-black"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Two months is the optimistic estimate. Projects routinely run longer when revisions,
@@ -79,7 +79,7 @@ export default function WebprebuiltOverviewSection() {
               Money
             </h3>
             <p
-              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
+              className="mt-4 sm:mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-black"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Custom design and development is expensive. Most Nigerian SMEs cannot afford a
@@ -89,7 +89,7 @@ export default function WebprebuiltOverviewSection() {
         </div>
 
         <p
-          className="mt-8 sm:mt-10 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
+          className="mt-8 sm:mt-10 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           Webprebuilt removes the need to hire a designer or devs build from scratch. SMEs choose a fully designed template tailored to their business, purchase it, and receive a live, editable website within 2–3 days.

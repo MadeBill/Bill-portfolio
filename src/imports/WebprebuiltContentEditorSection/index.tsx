@@ -17,13 +17,13 @@ function DecisionBlock({
   return (
     <div>
       <h3
-        className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[16px]"
+        className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[10px]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {title}
       </h3>
       <div
-        className="space-y-3 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
+        className="space-y-3 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {children}
@@ -41,7 +41,7 @@ export default function WebprebuiltContentEditorSection() {
     >
       <div className="mx-auto max-w-[1272px]">
         <h2
-          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[16px]"
+          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] mb-[10px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           Decision 2 — Content Editor
@@ -50,45 +50,25 @@ export default function WebprebuiltContentEditorSection() {
         <div className="mt-[16px]">
           <DecisionBlock title="Why the editor is intentionally limited">
             <p>
-              Full design freedom can overwhelm SME owners without design experience. One wrong change can break a layout and compromise the professional look of their website.
-            </p>
-            <p>
-              I designed Webprebuilt&apos;s Content Editor to focus on what users actually need to change: text, colors, fonts, and images. The right-side panel provides these controls, along with a toggle to show or hide sections, while keeping the layout and structure intact.
-            </p>
-            <p>
-              The goal: Give SMEs control over their content without making it easy to break the design they paid for.
+              {"Full design freedom can overwhelm SMEs and risk breaking their website layouts. I designed Webprebuilt's Content Editor to let users edit text, colors, fonts, images, and toggle sections while preserving the original structure, giving them control without compromising the design."}
             </p>
           </DecisionBlock>
 
           <DecisionBlock title="Content Editor — pages as a table">
             <p>
-              The Content Editor shows all the pages of the website as a table — Home, Pricing,
-              Product page — each with a preview thumbnail, last updated date, status chip, and an
-              Edit webpages button. The table format is correct here. The SME is not browsing or
-              comparing pages the way they browse templates. They are looking for a specific page
-              to edit, and a table gets them there faster than cards would. The thumbnail previews
-              mean they recognise the page visually before reading the title.
+              I used a table to list website pages with preview thumbnails, last updated dates, and status labels. Unlike template browsing, finding a page to edit is task-focused, so the table is best to makes navigation faster, with thumbnails helping users recognise pages at a glance.
             </p>
           </DecisionBlock>
 
           <DecisionBlock title="The editor itself — click anything to edit it">
             <p>
-              Selecting a page opens a live preview of the website in the centre panel with an
-              editing sidebar on the right. The right panel shows the properties of whatever
-              section is currently selected — headline text, body text, color, font, image upload,
-              and a Show on site toggle. The SME does not interact with code or a drag-and-drop
-              canvas. They click a section, see its properties appear on the right, and change them
-              directly.
+              {"I paired a live website preview with a contextual editing sidebar. SMEs can select a section and edit its text, colors, fonts, and images or toggle its visibility, without touching code or risking the layout."}
             </p>
           </DecisionBlock>
 
           <DecisionBlock title="The first-time tooltip">
             <p>
-              When an SME enters the Content Editor for the first time, a modal appears: “Click any
-              section in the preview to start editing.” One instruction. One button — Continue. The
-              SME knows exactly what to do before they touch anything. No tutorial to watch, no
-              documentation to read. The onboarding is a single sentence because the interface
-              only needs a single sentence to explain it.
+              I added a simple first-time prompt explaining how to edit: click any section in the preview. One instruction and one button keep onboarding brief, letting SMEs learn by doing without lengthy tutorials or documentation.
             </p>
           </DecisionBlock>
         </div>

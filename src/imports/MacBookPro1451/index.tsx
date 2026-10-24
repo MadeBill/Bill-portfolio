@@ -23,7 +23,7 @@ function Frame1() {
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         First-Time Investor Onboarding Modal
       </p>
-      <div className="min-w-full text-white">
+      <div className="min-w-full text-[#ffffff99]">
         <p style={{ fontVariationSettings: '"wdth" 100' }}>
           I designed a three-screen onboarding flow with real interface previews to explain Centralized and Custom Pools. Investors can choose guided or self-directed onboarding and skip steps, keeping the experience flexible and user-controlled.
         </p>
@@ -68,7 +68,7 @@ function Frame10() {
 function Frame15() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-[#ffffff99] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[38px] mb-[12px]">I designed the Explore page as a comparison table, helping investors evaluate pools, returns, epoch lengths, and risk side by side before investing.</p>
         <p className="leading-[38px]">The structured layout makes comparisons quicker and supports confident, informed financial decisions.</p>
       </div>
@@ -96,7 +96,7 @@ function Frame13() {
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Custom Pool — Card Design
       </p>
-      <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Each card surfaces exactly what an investor needs to evaluate a pool in under five seconds — pool name, status, total value, return per epoch, TVL, epoch start date, minimum deposit, and one action: View details. Nothing more competes for attention.
       </p>
     </div>
@@ -145,7 +145,7 @@ function Frame11() {
 function Frame19() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] min-w-full relative shrink-0 text-[18px] text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] min-w-full relative shrink-0 text-[18px] text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Investors can enter a custom amount or choose a preset from <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">$100 to $60K</strong>, with their available balance visible upfront to help them make informed decisions. I kept this step focused on input, avoiding premature confirmation before they’ve decided how much to invest.
       </p>
       <div className="h-[827.426px] relative shrink-0 w-[1274px]" data-name="MacBook Pro 14_ - 39 (2) 1">
@@ -169,7 +169,7 @@ function Frame18() {
 function Frame21() {
   return (
     <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full">
-      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-[#ffffff99] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p>{`I designed an investment summary showing the amount, pool, APY, estimated returns, pool share, and 30–40-day fund lock. The confirmation checkbox comes after these details, ensuring investors understand their commitment before agreeing.`}</p>
       </div>
       <div className="aspect-[1512/982] relative shrink-0 w-full" data-name="MacBook Pro 14_ - 40 (1) 1">
@@ -196,7 +196,7 @@ function Frame22() {
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Why two screens?
       </p>
-      <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         The deposit modal asks how much. The review modal asks are you certain. They are different questions and they deserve different screens. Collapsing them into one would move too fast for a decision that locks capital for over a month
       </p>
     </div>
@@ -232,11 +232,11 @@ function Frame16() {
 
 function Frame4() {
   return (
-    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start relative shrink-0 text-[18px] text-white w-[1274px]">
+    <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start relative shrink-0 text-[18px] text-[#ffffff99] w-[1274px]">
       <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-white text-[22px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Pool Detail Page
       </p>
-      <div className="leading-[1px] min-w-full relative shrink-0 w-[min-content] whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="leading-[1px] min-w-full relative shrink-0 w-[min-content] whitespace-pre-wrap text-[#ffffff99]" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[38px] mb-0">{`I designed the pool detail page to bring key investment information and actions into one place, prioritising clarity, easy navigation, and informed decision-making without overwhelming investors.`}</p>
         <p className="leading-[38px] mb-0">​</p>
         <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">The hierarchy of information</p>

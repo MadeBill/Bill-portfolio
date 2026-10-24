@@ -19,21 +19,21 @@ function DashboardDescription({
     <div>
       {isMainTitle ? (
         <h2
-          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] text-white mb-[16px]"
+          className="font-['Instrument_Sans:Bold'] text-[20px] sm:text-[22px] font-bold leading-[1.4] text-white mb-[10px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {title}
         </h2>
       ) : (
         <h3
-          className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[16px]"
+          className="font-['Instrument_Sans:Bold'] text-[18px] font-bold leading-[1.4] text-[#fcce00] mt-[32px] mb-[10px]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           {title}
         </h3>
       )}
       <div
-        className="space-y-2 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6]"
+        className="space-y-2 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
         {children}
@@ -85,13 +85,7 @@ export default function WebprebuiltDashboardTypesSection() {
 
           <DashboardDescription title="Why this matters">
             <p>
-              A salon and a restaurant may both offer services, but their operational needs differ. Giving every business the same dashboard would clutter the sidebar with irrelevant features.
-            </p>
-            <p>
-              I grouped eight niches into three dashboard types, so each SME gets tools tailored to its business without unnecessary complexity.
-            </p>
-            <p>
-              Eight niches. Three patterns. One goal: keep every dashboard relevant and focused.
+              I grouped eight business niches into three dashboard types because a salon and a restaurant have different operational needs. This keeps each dashboard focused on relevant tools without cluttering the interface with unnecessary features.
             </p>
           </DashboardDescription>
         </div>

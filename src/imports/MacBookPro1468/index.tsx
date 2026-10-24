@@ -62,7 +62,7 @@ export default function MacBookPro1468() {
           </p>
           <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-pre" style={{ fontVariationSettings: '"wdth" 100' }}>{`Fill basic  details`}</p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               I designed a single form for merchants to enter essential invoice details, including the amount, due date, billing address, and co-merchant. By focusing on one task at a time, the flow keeps invoice creation simple and efficient, with experienced merchants able to complete it in under two minutes.
             </p>
           </div>
@@ -70,7 +70,7 @@ export default function MacBookPro1468() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Upload Supporting Documents
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               {"I kept the document upload screen minimal, with a clear drop zone and a terms checkbox. This ensures merchants acknowledge the terms "}
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">at the point of submission</strong>
               {", rather than relying on buried onboarding agreements."}
@@ -80,7 +80,7 @@ export default function MacBookPro1468() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Share Invoice for Co-Merchant Signatures
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               {"After submission, a success modal makes "}
               <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">sharing the invoice the primary action</strong>
               {", helping merchants collect required co-merchant signatures without extra navigation. “I’ll do it later” remains available as a secondary option."}
@@ -90,7 +90,7 @@ export default function MacBookPro1468() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               {`Signatures Collected → Approval → Funding`}
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once co-merchants receive the link and sign, their signatures appear on the invoice detail page — visible to investors evaluating the deal. `}</p>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once co-merchants receive the link and sign, their signatures appear on the invoice detail page — visible to investors evaluating the deal. `}</p>
           </div>
           <ImageGrid />
         </div>

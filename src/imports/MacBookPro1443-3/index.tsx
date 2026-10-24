@@ -14,7 +14,7 @@ export default function MacBookPro() {
       <div className="ml-[122px] mt-[20px] w-[1274px]">
         {/* Intro paragraph */}
         <p
-          className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white"
+          className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           Before designing a single screen, I conducted surveys and spoke directly with children aged 8–16, the actual users of the platform. I wanted to understand how they learn, what keeps them engaged, and what makes them lose interest. Their feedback helped shape my design decisions from the start.
@@ -29,7 +29,7 @@ export default function MacBookPro() {
         </h3>
 
         <p
-          className="mt-[16px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white"
+          className="mt-[16px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99]"
           style={{ fontVariationSettings: '"wdth" 100' }}
         >
           I conducted qualitative research sessions with children aged 8–16 at Topfaith and Excel schools in Uyo, exploring how they learn, what makes them lose interest, and what motivates them to return.
@@ -54,7 +54,7 @@ export default function MacBookPro() {
               Video makes learning easier to follow
             </h4>
             <p
-              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#cfcbcb]"
+              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               The children preferred watching someone explain or demonstrate something over reading long texts. So I made video the primary learning format, with text for summaries, captions, and definitions.
@@ -70,7 +70,7 @@ export default function MacBookPro() {
               Learning is more fun together
             </h4>
             <p
-              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#cfcbcb]"
+              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               The children felt learning was more enjoyable with friends, and competition made it even more motivating. This shaped the community feature, live classrooms, group-based learning, and optional class leaderboards.
@@ -86,7 +86,7 @@ export default function MacBookPro() {
               Rewards keep them motivated
             </h4>
             <p
-              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#cfcbcb]"
+              className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99]"
               style={{ fontVariationSettings: '"wdth" 100' }}
             >
               Completing a lesson without recognition felt incomplete to the children. This informed the use of XP, badges, and new challenges to make progress feel rewarding and encourage them to keep learning.

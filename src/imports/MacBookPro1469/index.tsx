@@ -12,7 +12,7 @@ export default function MacBookPro1469() {
           </p>
           <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[38px] relative shrink-0 text-[18px] w-full">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`Screen 1 — Pool Detail & Apply`}</p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               I designed the pool detail page to help merchants confirm the right financing option, presenting key details, available capital, APY, and loan terms in one place. A prominent Apply for Loan button makes the next step clear once they’re satisfied with the terms.
             </p>
           </div>
@@ -20,7 +20,7 @@ export default function MacBookPro1469() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 2 — Select Loan Tier
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               I used selectable cards to present loan tiers side by side, showing duration, interest rates, and loan ranges. Cards work best here because merchants are choosing between a small number of options, not comparing multiple attributes across a large dataset. This makes trade-offs easier to understand and selection quicker.
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function MacBookPro1469() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 3 — Review Loan Application
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               Before submitting, merchants review a summary of the invoice amount, selected loan tier, interest rate, repayment duration, and total repayment. Following the same confirmation pattern as the investor flow, a checkbox above the Submit button requires merchants to actively acknowledge the terms before committing, helping prevent accidental submissions.
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function MacBookPro1469() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 4 — Loan Application Successful
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               The success modal confirms the application has been submitted and is awaiting investor funding. I added a secondary “Share this pool with friends” option as a subtle growth mechanic, placing it immediately after a successful application when merchants have just experienced the platform’s value. This encourages sharing at a natural moment without interrupting the application flow.
             </p>
           </div>

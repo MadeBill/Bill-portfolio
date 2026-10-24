@@ -16,7 +16,7 @@ export default function MacBookPro1470() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 1 — Invited Landing Screen
             </p>
-            <div className="leading-[38px] min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <div className="leading-[38px] min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               <p>{`I designed a personalised welcome screen showing who invited the co-merchant and the invoice details. A four-step guide outlines account creation, KYC, business verification, and signing, setting clear expectations from the start.`}</p>
             </div>
           </div>
@@ -24,7 +24,7 @@ export default function MacBookPro1470() {
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 2 — Dashboard with Pending Signing Request
             </p>
-            <p className="min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
               I placed the KYC prompt upfront to clarify that verification is required before signing. Pending requests show key invoice details, while a red “32 days due” chip highlights deadlines and helps co-merchants prioritise action.
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function MacBookPro1470() {
               Step 3 — Review Before You Sign
             </p>
             <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full">
-              <div className="leading-[38px] min-w-full relative shrink-0 text-white w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <div className="leading-[38px] min-w-full relative shrink-0 text-[#ffffff99] w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
                 <p>{`I designed the signing page to make co-merchants’ financial obligations clear before they commit. Key details, including the invoice amount, buyer, repayment date, and loan duration, appear upfront, followed by a yellow warning explaining their shared repayment responsibility. A mandatory confirmation ensures they acknowledge the terms before signing`}</p>
               </div>
               <div className="content-stretch flex gap-[8.19px] items-center relative shrink-0" data-node-id="446:81">

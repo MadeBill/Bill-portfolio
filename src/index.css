@@ -194,6 +194,112 @@ body,
   font-weight: 500 !important;
 }
 
+/* ── Case study body text color: #ffffff99 (excluding cards and colored accents) ── */
+.case-study-page p:not([class*="case-study-section-label"]):not([class*="font-bold"]):not([class*="Bold"]):not([class*="text-black"]):not([class*="text-[#fcce00]"]):not([class*="text-[#34e619]"]):not([class*="text-[#39ff14]"]):not([class*="text-[#e1be3f]"]):not([class*="text-[#d629cc]"]):not([class*="text-[#d600fc]"]):not(nav *):not(button *),
+.case-study-page li,
+.quanvaulte-mobile-design p:not([class*="case-study-section-label"]):not([class*="font-bold"]):not([class*="Bold"]):not([class*="text-black"]):not([class*="text-[#fcce00]"]):not([class*="text-[#34e619]"]):not([class*="text-[#39ff14]"]):not([class*="text-[#e1be3f]"]):not([class*="text-[#d629cc]"]),
+.forfalify-mobile-design p:not([class*="case-study-section-label"]):not([class*="font-bold"]):not([class*="Bold"]):not([class*="text-black"]):not([class*="text-[#fcce00]"]):not([class*="text-[#34e619]"]):not([class*="text-[#39ff14]"]):not([class*="text-[#e1be3f]"]):not([class*="text-[#d629cc]"]),
+.desktop-case-study-content p:not([class*="case-study-section-label"]):not([class*="font-bold"]):not([class*="Bold"]):not([class*="text-black"]):not([class*="text-[#fcce00]"]):not([class*="text-[#34e619]"]):not([class*="text-[#39ff14]"]):not([class*="text-[#e1be3f]"]):not([class*="text-[#d629cc]"]),
+.mobile-case-flow p:not([class*="case-study-section-label"]):not([class*="font-bold"]):not([class*="Bold"]):not([class*="text-black"]):not([class*="text-[#fcce00]"]):not([class*="text-[#34e619]"]):not([class*="text-[#39ff14]"]):not([class*="text-[#e1be3f]"]):not([class*="text-[#d629cc]"]) {
+  color: #ffffff99 !important;
+}
+
+/* Headings and labels stay pure white */
+.case-study-page h1,
+.case-study-page h2:not(.case-study-section-label):not([class*="case-study-section-label"]),
+.case-study-page h3,
+.case-study-page h4,
+.case-study-page p[class*="text-[32px]"],
+.case-study-page p[class*="text-[34px]"],
+.case-study-page p[class*="text-[40px]"],
+.case-study-page p[class*="text-[48px]"],
+.case-study-page p[class*="text-[64px]"],
+.case-study-page p[class*="text-[128px]"],
+.desktop-case-study-content p[class*="text-[22px]"],
+.case-study-page p[class*="text-[22px]"][class*="font-bold"],
+.case-study-page p[class*="text-[22px]"][class*="Bold"],
+.case-study-page p[class*="sm:text-[22px]"][class*="font-bold"],
+.case-study-page p[class*="sm:text-[22px]"][class*="Bold"] {
+  color: #ffffff !important;
+}
+
+/* Colored headings preserve their accent colors */
+.case-study-page [class*="text-[#fcce00]"],
+.case-study-page p[class*="text-[#fcce00]"],
+.desktop-case-study-content p[class*="text-[#fcce00]"],
+.quanvaulte-mobile-design p[class*="text-[#fcce00]"],
+.forfalify-mobile-design p[class*="text-[#fcce00]"] {
+  color: #fcce00 !important;
+}
+
+.case-study-page [class*="text-[#e1be3f]"],
+.case-study-page p[class*="text-[#e1be3f]"],
+.desktop-case-study-content p[class*="text-[#e1be3f]"],
+.quanvaulte-mobile-design p[class*="text-[#e1be3f]"],
+.forfalify-mobile-design p[class*="text-[#e1be3f]"] {
+  color: #e1be3f !important;
+}
+
+.case-study-page [class*="text-[#39ff14]"],
+.case-study-page p[class*="text-[#39ff14]"],
+.desktop-case-study-content p[class*="text-[#39ff14]"],
+.quanvaulte-mobile-design p[class*="text-[#39ff14]"],
+.forfalify-mobile-design p[class*="text-[#39ff14]"],
+.case-study-page [class*="text-[#34e619]"],
+.case-study-page p[class*="text-[#34e619]"],
+.forfalify-mobile-design p[class*="text-[#34e619]"] {
+  color: #39ff14 !important;
+}
+
+.case-study-page [class*="text-[#d629cc]"],
+.case-study-page p[class*="text-[#d629cc]"],
+.desktop-case-study-content p[class*="text-[#d629cc]"],
+.forfalify-mobile-design p[class*="text-[#d629cc]"],
+.case-study-page [class*="text-[#d600fc]"],
+.case-study-page p[class*="text-[#d600fc]"],
+.forfalify-mobile-design p[class*="text-[#d600fc]"] {
+  color: #d629cc !important;
+}
+
+/* Any element or text marked text-black is ALWAYS black */
+.case-study-page [class*="text-black"],
+.case-study-page p[class*="text-black"],
+.case-study-page span[class*="text-black"],
+.case-study-page [class*="text-black"] *,
+.case-study-page [class*="text-[#060606]"],
+.case-study-page p[class*="text-[#060606]"],
+.case-study-page [class*="text-[#060606]"] * {
+  color: #000000 !important;
+}
+
+/* Exclude all cards so card text color is never overridden */
+.case-study-page article p,
+.case-study-page article span,
+.case-study-page .case-study-card p,
+.case-study-page .case-study-card span,
+.case-study-page [data-name*="card"] p,
+.case-study-page [data-name*="card"] span,
+.case-study-page [data-name*="Card"] p,
+.case-study-page [data-name*="Card"] span,
+.case-study-page [class*="bg-[#37fc00]"] p,
+.case-study-page [class*="bg-[#37fc00]"] span,
+.case-study-page [class*="bg-[#d600fc]"] p,
+.case-study-page [class*="bg-[#d600fc]"] span,
+.case-study-page [class*="bg-[#fcce00]"] p,
+.case-study-page [class*="bg-[#fcce00]"] span,
+.case-study-page [class*="bg-[#b0efa9]"] p,
+.case-study-page [class*="bg-[#b0efa9]"] span,
+.case-study-page [class*="bg-[#efa9eb]"] p,
+.case-study-page [class*="bg-[#efa9eb]"] span,
+.case-study-page [class*="bg-[#d629cc]"] p,
+.case-study-page [class*="bg-[#d629cc]"] span,
+.case-study-page [class*="bg-[#3ad629]"] p,
+.case-study-page [class*="bg-[#3ad629]"] span,
+.case-study-page [class*="bg-white"] p,
+.case-study-page [class*="bg-white"] span {
+  color: inherit !important;
+}
+
 /* Restore bold for section label badges */
 .case-study-page p.case-study-section-label,
 .case-study-page .case-study-section-label,
@@ -222,6 +328,21 @@ body,
 .desktop-case-study-content p[class*="text-[22px]"] {
   font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
   font-weight: 700 !important;
+}
+
+/* Restore bold and size for bold card headings (e.g. 20px card titles) */
+.case-study-page p[class*="font-bold"],
+.case-study-page p[class*="Bold"],
+.forfalify-mobile-design p[class*="font-bold"],
+.forfalify-mobile-design p[class*="Bold"] {
+  font-family: "Instrument Sans:Bold", "Instrument Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.case-study-page p[class*="text-[20px]"][class*="font-bold"],
+.forfalify-mobile-design p[class*="text-[20px]"][class*="font-bold"] {
+  font-size: 20px !important;
+  line-height: 1.4 !important;
 }
 
 /* Restore bold for colour-accented heading labels in mobile components

@@ -3,7 +3,7 @@ import imgMacBookPro1446 from "./0d6f6b1902f0a0885860fb6456df1d6e6a8acac3.png";
 function Frame3() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full">
-      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[1px] relative shrink-0 text-[18px] text-[#ffffff99] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">First — the numbers that drive the decision</p>
         <p className="leading-[38px] mb-[32px]">{`Invoice value, return rate, loan range, repayment duration, and epoch date lead the page in the largest type. These are the figures the investor evaluates before anything else. If the terms don't work for them, nothing below matters.`}</p>
         <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[38px] mb-[16px] text-[#fcce00] text-[18px]">Second — the timeline</p>

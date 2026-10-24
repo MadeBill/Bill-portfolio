@@ -58,7 +58,7 @@ export default function ForfalifyMobile({
               Overview
             </p>
           </div>
-          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-white w-full" data-node-id="325:19" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-[#ffffff99] w-full" data-node-id="325:19" style={{ fontVariationSettings: '"wdth" 100' }}>
             <p className="leading-[24px]">Forfaitify connects merchants seeking invoice financing with investors looking for asset-backed, insured returns. I designed both merchant and investor portals, covering applications, investment pools, funding cycles, and security.</p>
           </div>
         </div>
@@ -71,8 +71,8 @@ export default function ForfalifyMobile({
                 The problem
               </p>
             </div>
-            <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-white w-full" data-node-id="325:24" style={{ fontVariationSettings: '"wdth" 100' }}>
-              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] mb-[12px]">Making invoice financing accessible while building investor confidence.</p>
+            <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[15px] text-[#ffffff99] w-full" data-node-id="325:24" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-white mb-[12px]">Making invoice financing accessible while building investor confidence.</p>
               <p className="leading-[24px] mb-[12px]">Small and mid-sized merchants often struggle to access invoice financing due to complex processes and limited banking relationships. Meanwhile, investors need clarity on investment risks, returns, and the security of their funds.</p>
               <p className="leading-[24px]">The challenge was to design two connected experiences that made financing easier for merchants while helping investors make informed investment decisions.</p>
             </div>
@@ -86,7 +86,7 @@ export default function ForfalifyMobile({
                     The investor
                   </p>
                 </div>
-                <p className="font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.4] text-[18px] text-black w-full" data-node-id="325:32" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.4] text-[20px] text-black w-full" data-node-id="325:32" style={{ fontVariationSettings: '"wdth" 100' }}>
                   Deploys capital. Expects structured returns
                 </p>
               </div>
@@ -132,7 +132,7 @@ export default function ForfalifyMobile({
                     The Merchant
                   </p>
                 </div>
-                <p className="font-['Instrument_Sans:SemiBold'] font-semibold leading-[1.4] text-[18px] text-black w-full" data-node-id="325:52" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="font-['Instrument_Sans:Bold'] font-bold leading-[1.4] text-[20px] text-black w-full" data-node-id="325:52" style={{ fontVariationSettings: '"wdth" 100' }}>
                   Needs capital. Operates under time pressure.
                 </p>
               </div>
@@ -184,7 +184,7 @@ export default function ForfalifyMobile({
           {/* 4. Illustration — Newspaper & Engraving Style */}
           <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start text-[15px] w-full" data-node-id="325:93">
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] min-w-full relative shrink-0 text-[#39ff14] w-[min-content]" data-node-id="325:94" style={{ fontVariationSettings: '"wdth" 100' }}>{`Illustration — Newspaper & Engraving Style`}</p>
-            <div className="leading-[24px] relative shrink-0 text-white w-full space-y-[12px]" data-node-id="325:95" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <div className="leading-[24px] relative shrink-0 text-[#ffffff99] w-full space-y-[12px]" data-node-id="325:95" style={{ fontVariationSettings: '"wdth" 100' }}>
               <p>{`Trade finance has a long history rooted in paper invoices, stamped documents, and financial records. I used three vintage-style illustrations to reflect that heritage, combining aged textures, engraved details, and physical currency.`}</p>
               <p>{`The contrast with the clean digital interface reinforces Forfaitify’s core idea: traditional trust, reimagined through technology.`}</p>
             </div>
@@ -212,7 +212,7 @@ export default function ForfalifyMobile({
               </p>
               <div className="bg-[#2c43eb] h-[16px] relative rounded-[2.909px] shrink-0 w-[16.364px]" data-node-id="325:69" />
             </div>
-            <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] relative shrink-0 text-[15px] text-white w-full" data-node-id="325:70" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] relative shrink-0 text-[15px] text-[#ffffff99] w-full" data-node-id="325:70" style={{ fontVariationSettings: '"wdth" 100' }}>
               I used blue selectively to communicate trust, stability, and confidence, especially in a product where investors commit capital.
             </p>
           </div>
@@ -221,7 +221,7 @@ export default function ForfalifyMobile({
           <div className="flex flex-col gap-[20px] items-start w-full" data-node-id="325:71">
             <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Medium',sans-serif] font-medium gap-[16px] items-start leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="325:72">
               <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-full" data-node-id="325:73" style={{ fontVariationSettings: '"wdth" 100' }}>{`Typography — Plus Jakarta Sans & Inter`}</p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:74" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:74" style={{ fontVariationSettings: '"wdth" 100' }}>
                 I used Plus Jakarta Sans for headings and UI elements because of its clean, confident look, and Inter for body text to keep information easy to read, especially on data-heavy screens. One helps users scan quickly, while the other makes longer content easier to follow.
               </p>
             </div>
@@ -239,7 +239,7 @@ export default function ForfalifyMobile({
             <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:85" style={{ fontVariationSettings: '"wdth" 100' }}>
               Icons — Inline
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:86" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:86" style={{ fontVariationSettings: '"wdth" 100' }}>
               Simple inline icons get out of the way of the data. On a financial dashboard, iconography that competes for attention is iconography that has failed its job.
             </p>
           </div>
@@ -250,7 +250,7 @@ export default function ForfalifyMobile({
               <p className="relative shrink-0 text-[#39ff14] w-full" data-node-id="325:89" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Spacing — 8px base, fintech standard
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:90" style={{ fontVariationSettings: '"wdth" 100' }}>{`The fintech spacing convention exists because it has been validated at scale across millions of users making financial decisions. Reinventing it would have been design for its own sake, not for the user's benefit.`}</p>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:90" style={{ fontVariationSettings: '"wdth" 100' }}>{`The fintech spacing convention exists because it has been validated at scale across millions of users making financial decisions. Reinventing it would have been design for its own sake, not for the user's benefit.`}</p>
             </div>
           </div>
         </div>
@@ -271,7 +271,7 @@ export default function ForfalifyMobile({
                 <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#39ff14] w-[278px]" data-node-id="325:105" style={{ fontVariationSettings: '"wdth" 100' }}>
                   First-Time Investor Onboarding Modal
                 </p>
-                <div className="text-white w-full">
+                <div className="text-[#ffffff99] w-full">
                   <p data-node-id="325:106" style={{ fontVariationSettings: '"wdth" 100' }}>
                     I designed a three-screen onboarding flow with real interface previews to explain Centralized and Custom Pools. Investors can choose guided or self-directed onboarding and skip steps, keeping the experience flexible and user-controlled.
                   </p>
@@ -299,7 +299,7 @@ export default function ForfalifyMobile({
               <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:119" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Deposit Modal
               </p>
-              <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] text-[15px] text-white w-full" data-node-id="325:121" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[24px] text-[15px] text-[#ffffff99] w-full" data-node-id="325:121" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Investors can enter a custom amount or choose a preset from <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">$100 to $60K</strong>, with their available balance visible upfront to help them make informed decisions. I kept this step focused on input, avoiding premature confirmation before they’ve decided how much to invest.
               </p>
               <div className="h-[218px] relative shrink-0 w-[336px]" data-node-id="325:122" data-name="MacBook Pro 14_ - 39 (2) 1">
@@ -313,7 +313,7 @@ export default function ForfalifyMobile({
                 Review Modal
               </p>
               <div className="flex flex-col gap-[64px] items-start w-full" data-node-id="325:125">
-                <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] leading-[24px] text-white w-full" data-node-id="325:126" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] leading-[24px] text-[#ffffff99] w-full" data-node-id="325:126" style={{ fontVariationSettings: '"wdth" 100' }}>
                   <p>{`I designed an investment summary showing the amount, pool, APY, estimated returns, pool share, and 30–40-day fund lock. The confirmation checkbox comes after these details, ensuring investors understand their commitment before agreeing.`}</p>
                 </div>
                 <div className="aspect-[1512/982] relative shrink-0 w-full" data-node-id="325:127" data-name="MacBook Pro 14_ - 40 (1) 1">
@@ -327,7 +327,7 @@ export default function ForfalifyMobile({
               <p className="leading-[51px] relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:129" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Why two screens?
               </p>
-              <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:130" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[24px] relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:130" style={{ fontVariationSettings: '"wdth" 100' }}>
                 The deposit modal asks how much. The review modal asks are you certain. They are different questions and they deserve different screens. Collapsing them into one would move too fast for a decision that locks capital for over a month
               </p>
             </div>
@@ -338,7 +338,7 @@ export default function ForfalifyMobile({
                 <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#34e619] text-[15px] w-[121px]" data-node-id="325:134" style={{ fontVariationSettings: '"wdth" 100' }}>
                   Pool Detail Page
                 </p>
-                <div className="text-white w-full whitespace-pre-wrap" data-node-id="325:135" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <div className="text-[#ffffff99] w-full whitespace-pre-wrap" data-node-id="325:135" style={{ fontVariationSettings: '"wdth" 100' }}>
                   <p className="leading-[24px] mb-0 text-[15px]">{`I designed the pool detail page to bring key investment information and actions into one place, prioritising clarity, easy navigation, and informed decision-making without overwhelming investors.`}</p>
                   <p className="leading-[24px] mb-0 text-[15px]">​</p>
                   <p className="leading-[24px] mb-[16px] text-[#fcce00] text-[15px]">The hierarchy of information</p>
@@ -372,7 +372,7 @@ export default function ForfalifyMobile({
                   Explore Pools — Table
                 </p>
                 <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="325:141">
-                  <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] text-white w-full" data-node-id="325:142" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium text-[15px] text-[#ffffff99] w-full" data-node-id="325:142" style={{ fontVariationSettings: '"wdth" 100' }}>
                     <p className="leading-[24px] mb-[12px]">I designed the Explore page as a comparison table, helping investors evaluate pools, returns, epoch lengths, and risk side by side before investing.</p>
                     <p className="leading-[24px]">The structured layout makes comparisons quicker and supports confident, informed financial decisions.</p>
                   </div>
@@ -385,7 +385,7 @@ export default function ForfalifyMobile({
                 <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[205px]" data-node-id="325:145" style={{ fontVariationSettings: '"wdth" 100' }}>
                   Custom Pool — Card Design
                 </p>
-                <p className="relative shrink-0 text-white w-full" data-node-id="325:146" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:146" style={{ fontVariationSettings: '"wdth" 100' }}>
                   Each card surfaces exactly what an investor needs to evaluate a pool in under five seconds — pool name, status, total value, return per epoch, TVL, epoch start date, minimum deposit, and one action: View details. Nothing more competes for attention.
                 </p>
               </div>
@@ -405,7 +405,7 @@ export default function ForfalifyMobile({
             <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[243px]" data-node-id="325:156" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 1 — Invited Landing Screen
             </p>
-            <div className="text-white w-full" data-node-id="325:157" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <div className="text-[#ffffff99] w-full" data-node-id="325:157" style={{ fontVariationSettings: '"wdth" 100' }}>
               <p className="leading-[24px]">{`I designed a personalised welcome screen showing who invited the co-merchant and the invoice details. A four-step guide outlines account creation, KYC, business verification, and signing, setting clear expectations from the start.`}</p>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function ForfalifyMobile({
             <p className="font-['Instrument_Sans:Bold'] font-bold relative shrink-0 text-[#e1be3f] text-[15px] w-full" data-node-id="325:159" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 2 — Dashboard with Pending Signing Request
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:160" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:160" style={{ fontVariationSettings: '"wdth" 100' }}>
               I placed the KYC prompt upfront to clarify that verification is required before signing. Pending requests show key invoice details, while a red “32 days due” chip highlights deadlines and helps co-merchants prioritise action.
             </p>
           </div>
@@ -421,7 +421,7 @@ export default function ForfalifyMobile({
             <p className="font-['Instrument_Sans:Bold'] font-bold leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-[248px]" data-node-id="325:162" style={{ fontVariationSettings: '"wdth" 100' }}>
               Step 3 — Review Before You Sign
             </p>
-            <div className="text-white w-full" data-node-id="325:163" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <div className="text-[#ffffff99] w-full" data-node-id="325:163" style={{ fontVariationSettings: '"wdth" 100' }}>
               <p className="leading-[24px]">{`I designed the signing page to make co-merchants’ financial obligations clear before they commit. Key details, including the invoice amount, buyer, repayment date, and loan duration, appear upfront, followed by a yellow warning explaining their shared repayment responsibility. A mandatory confirmation ensures they acknowledge the terms before signing`}</p>
             </div>
           </div>
@@ -447,7 +447,7 @@ export default function ForfalifyMobile({
           </p>
           <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:208">
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[233px]" data-node-id="325:209" style={{ fontVariationSettings: '"wdth" 100' }}>{`Screen 1 — Pool Detail & Apply`}</p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:210" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:210" style={{ fontVariationSettings: '"wdth" 100' }}>
               I designed the pool detail page to help merchants confirm the right financing option, presenting key details, available capital, APY, and loan terms in one place. A prominent Apply for Loan button makes the next step clear once they’re satisfied with the terms.
             </p>
           </div>
@@ -455,7 +455,7 @@ export default function ForfalifyMobile({
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[227px]" data-node-id="325:212" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 2 — Select Loan Tier
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:213" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:213" style={{ fontVariationSettings: '"wdth" 100' }}>
               I used selectable cards to present loan tiers side by side, showing duration, interest rates, and loan ranges. Cards work best here because merchants are choosing between a small number of options, not comparing multiple attributes across a large dataset. This makes trade-offs easier to understand and selection quicker.
             </p>
           </div>
@@ -463,7 +463,7 @@ export default function ForfalifyMobile({
             <p className="relative shrink-0 text-[#e1be3f] text-[15px] whitespace-nowrap" data-node-id="325:215" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 3 — Review Loan Application
             </p>
-            <p className="relative shrink-0 text-white w-full" data-node-id="325:216" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:216" style={{ fontVariationSettings: '"wdth" 100' }}>
               Before submitting, merchants review a summary of the invoice amount, selected loan tier, interest rate, repayment duration, and total repayment. Following the same confirmation pattern as the investor flow, a checkbox above the Submit button requires merchants to actively acknowledge the terms before committing, helping prevent accidental submissions.
             </p>
           </div>
@@ -471,7 +471,7 @@ export default function ForfalifyMobile({
             <p className="leading-[24px] relative shrink-0 text-[#e1be3f] text-[15px] w-full" data-node-id="325:218" style={{ fontVariationSettings: '"wdth" 100' }}>
               Screen 4 — Loan Application Successful
             </p>
-            <p className="leading-[24px] relative shrink-0 text-white w-full" data-node-id="325:219" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[24px] relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:219" style={{ fontVariationSettings: '"wdth" 100' }}>
               The success modal confirms the application has been submitted and is awaiting investor funding. I added a secondary “Share this pool with friends” option as a subtle growth mechanic, placing it immediately after a successful application when merchants have just experienced the platform’s value. This encourages sharing at a natural moment without interrupting the application flow.
             </p>
           </div>
@@ -501,7 +501,7 @@ export default function ForfalifyMobile({
             </p>
             <div className="[word-break:break-word] content-stretch flex flex-col font-['Instrument_Sans:Bold'] font-bold gap-[16px] items-start leading-[51px] relative shrink-0 text-[15px] w-full" data-node-id="325:177">
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[142px] whitespace-pre-wrap" data-node-id="325:178" style={{ fontVariationSettings: '"wdth" 100' }}>{`Fill basic  details`}</p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:179" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:179" style={{ fontVariationSettings: '"wdth" 100' }}>
                 I designed a single form for merchants to enter essential invoice details, including the amount, due date, billing address, and co-merchant. By focusing on one task at a time, the flow keeps invoice creation simple and efficient, with experienced merchants able to complete it in under two minutes.
               </p>
             </div>
@@ -509,7 +509,7 @@ export default function ForfalifyMobile({
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[274px]" data-node-id="325:181" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Upload Supporting Documents
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:182" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:182" style={{ fontVariationSettings: '"wdth" 100' }}>
                 {"I kept the document upload screen minimal, with a clear drop zone and a terms checkbox. This ensures merchants acknowledge the terms "}
                 <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">at the point of submission</strong>
                 {", rather than relying on buried onboarding agreements."}
@@ -519,7 +519,7 @@ export default function ForfalifyMobile({
               <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold relative shrink-0 text-[#e1be3f] text-[15px] w-[370px]" data-node-id="325:184" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Share Invoice for Co-Merchant Signatures
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:185" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:185" style={{ fontVariationSettings: '"wdth" 100' }}>
                 {"After submission, a success modal makes "}
                 <strong className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-white">sharing the invoice the primary action</strong>
                 {", helping merchants collect required co-merchant signatures without extra navigation. “I’ll do it later” remains available as a secondary option."}
@@ -529,7 +529,7 @@ export default function ForfalifyMobile({
               <p className="relative shrink-0 text-[#e1be3f] text-[15px] w-[385px]" data-node-id="325:187" style={{ fontVariationSettings: '"wdth" 100' }}>
                 Signatures Collected → Approval → Funding
               </p>
-              <p className="relative shrink-0 text-white w-full" data-node-id="325:188" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once co-merchants receive the link and sign, their signatures appear on the invoice detail page — visible to investors evaluating the deal. `}</p>
+              <p className="relative shrink-0 text-[#ffffff99] w-full" data-node-id="325:188" style={{ fontVariationSettings: '"wdth" 100' }}>{`Once co-merchants receive the link and sign, their signatures appear on the invoice detail page — visible to investors evaluating the deal. `}</p>
             </div>
             <div className="content-stretch flex flex-col gap-[12px] items-start w-full" data-node-id="325:189">
               <div className="content-stretch flex flex-col gap-[12px] items-start w-full" data-node-id="325:191">

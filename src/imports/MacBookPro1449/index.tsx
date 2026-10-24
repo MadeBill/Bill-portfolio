@@ -69,7 +69,7 @@ function Frame10() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
       <Frame6 />
-      <p className="[word-break:break-word] font-['Instrument_Sans:SemiBold',sans-serif] font-semibold leading-[1.45] min-w-full relative shrink-0 text-[18px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] min-w-full relative shrink-0 text-[20px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Deploys capital. Expects structured returns
       </p>
     </div>
@@ -177,7 +177,7 @@ function Frame11() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
       <Frame9 />
-      <p className="[word-break:break-word] font-['Instrument_Sans:SemiBold',sans-serif] font-semibold leading-[1.45] min-w-full relative shrink-0 text-[18px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] min-w-full relative shrink-0 text-[20px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Needs capital. Operates under time pressure.
       </p>
     </div>
@@ -278,7 +278,7 @@ export default function MacBookPro() {
         {/* Overview block */}
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
           <Frame4 />
-          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-[#ffffff99] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
             <p>Forfaitify connects merchants seeking invoice financing with investors looking for asset-backed, insured returns. I designed both merchant and investor portals, covering applications, investment pools, funding cycles, and security.</p>
           </div>
         </div>
@@ -286,7 +286,7 @@ export default function MacBookPro() {
         {/* The problem block */}
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
           <Frame5 />
-          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <div className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] relative shrink-0 text-[18px] text-[#ffffff99] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
             <p className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-white mb-[12px]">Making invoice financing accessible while building investor confidence.</p>
             <p className="mb-[12px]">Small and mid-sized merchants often struggle to access invoice financing due to complex processes and limited banking relationships. Meanwhile, investors need clarity on investment risks, returns, and the security of their funds.</p>
             <p>The challenge was to design two connected experiences that made financing easier for merchants while helping investors make informed investment decisions.</p>

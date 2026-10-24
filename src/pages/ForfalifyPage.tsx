@@ -99,11 +99,11 @@ function Breadcrumb() {
         </svg>
       </div>
       <p
-        className="min-w-0 font-['Instrument_Sans:Medium',sans-serif] font-medium text-[rgba(16,22,31,0.8)] text-[18px] leading-[32px] whitespace-normal sm:whitespace-nowrap"
+        className="min-w-0 font-['Instrument_Sans:Medium',sans-serif] font-medium text-black text-[18px] leading-[32px] whitespace-normal sm:whitespace-nowrap"
         style={{ fontVariationSettings: '"wdth" 100' }}
       >
-        <Link to="/" className="no-underline text-[rgba(16,22,31,0.8)] hover:text-black">Case Studies</Link>
-        <span>/Forfalify</span>
+        <Link to="/" className="no-underline text-black hover:text-black">Case Studies</Link>
+        <span className="text-black">/Forfalify</span>
       </p>
     </div>
   );

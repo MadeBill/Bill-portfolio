@@ -792,18 +792,18 @@ function Frame55() {
 
 export default function MacBookPro() {
   return (
-    <div className="bg-black relative w-[1440px] flex flex-col gap-[40px] pl-[99px]" data-name="MacBook Pro 14' - 44">
+    <div className="bg-black relative w-[1440px] flex flex-col gap-0 pl-[99px]" data-name="MacBook Pro 14' - 44">
       {/* Choice of button section */}
       <div className="flex flex-col gap-[20px] w-[1274px]">
         <p className="[word-break:break-word] font-['Instrument_Sans:Bold',sans-serif] font-bold leading-[1.45] text-[#fcce00] text-[18px] w-[660px] whitespace-pre-wrap m-0" style={{ fontVariationSettings: '"wdth" 100' }}>{`Choice of  button`}</p>
-        <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] text-[18px] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium',sans-serif] font-medium leading-[38px] text-[18px] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
           I used the button with the shadow to bring in the fun feel to the platform and also cause it give the attention of press me, which is what i want for the CTA, i also made the primary blue, secondary and button and the 3rd as the white
         </p>
         <Frame56 />
       </div>
 
       {/* Features decision section */}
-      <div className="flex flex-col gap-[24px] w-[1274px]">
+      <div className="flex flex-col gap-[24px] w-[1274px] mt-[110px]">
         <Frame53 />
 
         <div className="flex flex-col gap-[24px] w-full">
@@ -811,7 +811,7 @@ export default function MacBookPro() {
             <h4 className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-[#d629cc] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               The leaderboard
             </h4>
-            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Research revealed that children enjoyed competing with their friends, so I introduced a leaderboard to encourage friendly competition and motivate them to keep learning.
             </p>
           </div>
@@ -820,7 +820,7 @@ export default function MacBookPro() {
             <h4 className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-[#d629cc] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               XP points
             </h4>
-            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               I introduced XP points to reward learning activities and give children a clear sense of progress as they completed lessons and quizzes.
             </p>
           </div>
@@ -829,7 +829,7 @@ export default function MacBookPro() {
             <h4 className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-[#d629cc] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Badges
             </h4>
-            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Badges gave children visible rewards to collect and look back on, recognising their achievements and encouraging them to reach new milestones.
             </p>
           </div>
@@ -838,7 +838,7 @@ export default function MacBookPro() {
             <h4 className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-[#d629cc] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Community
             </h4>
-            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Since children expressed a preference for learning alongside people they knew, I designed a community experience that made social learning a core part of the platform.
             </p>
           </div>
@@ -847,7 +847,7 @@ export default function MacBookPro() {
             <h4 className="font-['Instrument_Sans:Bold',sans-serif] font-bold text-[20px] leading-[1.45] text-[#d629cc] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               Streaks
             </h4>
-            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-white m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="mt-[6px] font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] leading-[1.6] text-[#ffffff99] m-0" style={{ fontVariationSettings: '"wdth" 100' }}>
               I introduced streaks to encourage consistency, rewarding children for returning and completing learning activities regularly to maintain their progress.
             </p>
           </div>
@@ -857,8 +857,8 @@ export default function MacBookPro() {
       </div>
 
       {/* Video comprehension check section */}
-      <div className="flex flex-col gap-[20px] w-[1274px]">
-        <div className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] text-white leading-[38px] flex flex-col gap-[8px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="flex flex-col gap-[20px] w-[1274px] mt-[40px]">
+        <div className="font-['Instrument_Sans:Medium',sans-serif] font-medium text-[18px] text-[#ffffff99] leading-[38px] flex flex-col gap-[8px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           <p className="m-0">I designed a video comprehension check that pauses lessons after inactivity and presents a multiple-choice question based on the content. Correct answers earn XP and resume the video.</p>
           <p className="m-0">The feature tackles passive watching without disrupting video-based learning, rewarding understanding rather than time spent while keeping the experience fun and engaging.</p>
         </div>
