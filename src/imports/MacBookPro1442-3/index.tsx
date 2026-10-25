@@ -2,7 +2,7 @@ import svgPaths from "./svg-ybq0105ka3";
 
 function Frame() {
   return (
-    <div className="bg-[#d629cc] content-stretch flex gap-[12.394px] items-center p-[12px] relative rounded-[8px] shrink-0">
+    <a href="mailto:Aniekanbill1@gmail.com" className="bg-[#d629cc] content-stretch flex gap-[12.394px] items-center p-[12px] relative rounded-[8px] shrink-0 no-underline cursor-pointer">
       <p className="[word-break:break-word] font-['Instrument_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[14.165px] text-white whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Contact me
       </p>
@@ -11,7 +11,7 @@ function Frame() {
           <path clipRule="evenodd" d={svgPaths.p4506e00} fill="white" fillRule="evenodd" id="Vector" />
         </svg>
       </div>
-    </div>
+    </a>
   );
 }
 

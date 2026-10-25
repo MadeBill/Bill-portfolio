@@ -36,7 +36,7 @@ export default function WebprebuiltOverviewSection() {
           </div>
         </div>
 
-        <div className="mt-[32px] sm:mt-[80px] scroll-mt-24" id="webprebuilt-problem" data-node-id="238:6796">
+        <div className="mt-[120px] scroll-mt-24" id="webprebuilt-problem" data-node-id="238:6796">
           <SectionLabel>The problem</SectionLabel>
           <div className="mt-[20px] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]">
             <h3

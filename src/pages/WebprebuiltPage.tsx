@@ -80,7 +80,7 @@ export default function WebprebuiltPage() {
         ) : (
           <div className="-mt-[20px] sm:mt-0 lg:grid lg:grid-cols-[236px_minmax(0,1fr)] lg:items-start lg:gap-6 lg:pl-[120px] lg:pr-5">
             <CaseStudySidebar className="px-5 sm:px-8 lg:px-[21px]" sections={WEBPREBUILT_SECTIONS} />
-            <div className="flex min-w-0 flex-col gap-[40px] sm:gap-[80px] lg:[&>section]:px-0">
+            <div className="flex min-w-0 flex-col gap-[120px] lg:[&>section]:px-0">
               <WebprebuiltOverviewSection />
               <WebprebuiltResearchSection />
               <WebprebuiltWorkspaceSection />

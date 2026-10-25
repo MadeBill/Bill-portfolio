@@ -70,7 +70,10 @@ export default function TestimonialsWrapper() {
           >
             © 2026 Bill Aniekan
           </p>
-          <div className="bg-[#d629cc] flex gap-[12px] items-center px-[12px] py-[12px] rounded-[8px] cursor-pointer">
+          <a
+            href="mailto:Aniekanbill1@gmail.com"
+            className="bg-[#d629cc] flex gap-[12px] items-center px-[12px] py-[12px] rounded-[8px] cursor-pointer no-underline"
+          >
             <span
               className="font-['Instrument_Sans:SemiBold',sans-serif] font-semibold text-white text-[14.165px] whitespace-nowrap"
               style={{ fontVariationSettings: '"wdth" 100' }}
@@ -82,7 +85,7 @@ export default function TestimonialsWrapper() {
                 <path clipRule="evenodd" d={svgPaths.p4506e00} fill="white" fillRule="evenodd" />
               </svg>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -59,7 +59,10 @@ export default function Navbar() {
           </span>
           <DownloadIcon />
         </a>
-        <div className="bg-[#d629cc] flex gap-2 items-center px-3 py-2 sm:px-[12px] sm:py-[12px] rounded-[8px]">
+        <a
+          href="mailto:Aniekanbill1@gmail.com"
+          className="bg-[#d629cc] flex gap-2 items-center px-3 py-2 sm:px-[12px] sm:py-[12px] rounded-[8px] no-underline cursor-pointer"
+        >
           <span
             className="font-['Instrument_Sans:SemiBold',sans-serif] font-semibold text-white text-[12px] sm:text-[14.165px] whitespace-nowrap"
             style={{ fontVariationSettings: '"wdth" 100' }}
@@ -71,7 +74,7 @@ export default function Navbar() {
               <path clipRule="evenodd" d={svgPaths.p4506e00} fill="white" fillRule="evenodd" />
             </svg>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

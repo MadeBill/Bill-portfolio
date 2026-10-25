@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import HeroSection from "../HeroSection";
 import WorksTabSection from "../WorksTabSection";
-import TestimonialsSection from "../TestimonialsWrapper";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <WorksTabSection />
-      <TestimonialsSection />
+      <Footer />
     </div>
   );
 }

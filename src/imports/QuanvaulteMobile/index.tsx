@@ -29,7 +29,7 @@ export default function QuanvaulteMobile({
   onTabChange,
 }: QuanvaulteMobileProps) {
   return (
-    <div className="quanvaulte-mobile-design relative w-full bg-black px-[18px] pt-[20px] pb-[80px]" data-node-id="305:9" data-name="iPhone 13 & 14 - 56">
+    <div className="quanvaulte-mobile-design relative w-full bg-black px-5 pt-[20px] pb-[80px]" data-node-id="305:9" data-name="iPhone 13 & 14 - 56">
       <div className="mb-[30px] z-10" data-node-id="305:10">
         <ProjectTabs
           activeTab={activeTab}
@@ -37,7 +37,7 @@ export default function QuanvaulteMobile({
         />
       </div>
 
-      <div className="flex flex-col gap-[40px] w-full max-w-[354px] mx-auto">
+      <div className="flex flex-col gap-[40px] w-full">
         {/* Section 1: Overview */}
         <section className="flex flex-col gap-[16px] items-start w-full" data-node-id="305:17">
           <div className="bg-white content-stretch flex items-center justify-center px-[10px] py-[4px] w-fit" data-node-id="305:18">

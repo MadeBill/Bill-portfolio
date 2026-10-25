@@ -133,7 +133,7 @@ export default function OwambePage() {
           ) : (
             <div className="lg:grid lg:grid-cols-[236px_minmax(0,1fr)] lg:items-start lg:gap-8">
               <CaseStudySidebar sections={OWAMBE_SECTIONS} />
-            <div className="flex min-w-0 flex-col gap-[40px] sm:gap-[80px]">
+            <div className="flex min-w-0 flex-col gap-[120px]">
           <section className="flex scroll-mt-24 flex-col gap-[16px] sm:gap-[20px]" id="owambe-overview">
             <SectionLabel>Overview</SectionLabel>
             <div className="flex flex-col gap-[16px] text-white">

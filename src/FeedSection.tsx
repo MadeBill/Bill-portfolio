@@ -249,9 +249,9 @@ function FeedPreviewModal({
               </span>
             </button>
 
-            <button
-              className="flex h-9 items-center gap-2.5 rounded-[7px] border-0 bg-[#d629cc] px-3 text-white sm:w-28 sm:justify-between"
-              type="button"
+            <a
+              href="mailto:Aniekanbill1@gmail.com"
+              className="flex h-9 items-center gap-2.5 rounded-[7px] border-0 bg-[#d629cc] px-3 text-white sm:w-28 sm:justify-between no-underline cursor-pointer"
             >
               <span
                 className="font-['Instrument_Sans:SemiBold'] text-[11.911px] font-semibold whitespace-nowrap"
@@ -265,7 +265,7 @@ function FeedPreviewModal({
                 className="h-[17px] w-[19px]"
                 src={assets.contactIcon}
               />
-            </button>
+            </a>
           </div>
         </div>
 

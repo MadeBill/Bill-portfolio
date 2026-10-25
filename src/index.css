@@ -589,12 +589,7 @@ body,
 
   .quanvaulte-mobile-design {
     width: 100%;
-    height: 7955px;
-    overflow: hidden;
-  }
-
-  .quanvaulte-mobile-design > * {
-    max-width: calc(100% - 40px);
+    height: auto;
   }
 
   .quanvaulte-mobile-design p {

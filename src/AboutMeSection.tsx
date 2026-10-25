@@ -453,30 +453,26 @@ export default function AboutMeSection() {
         <section data-node-id="226:160">
           <SectionLabel>About</SectionLabel>
           <div
-            className="mt-5 space-y-[1.45em] font-['Instrument_Sans:SemiBold'] text-[clamp(17px,1.6vw,24px)] font-semibold leading-[1.45]"
+            className="mt-5 space-y-[1.45em] font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]"
             style={fontWidth}
           >
             <p>
-              I&apos;m Bill Aniekan, a product designer who works on complex B2B SaaS, AI, and
-              fintech products. I&apos;ve been designing since 2022, and I care most about the
-              layer between product and engineering: the edge cases, interface states, and handoff
-              documentation that make a build unambiguous.
+              I&apos;m Bill Aniekan, a product designer with 4+ years of experience working across
+              fintech, SaaS, edtech, healthcare, and consumer products. I care about the intersection
+              of user experience and business growth, turning complex problems into products that are
+              intuitive, useful, and built to scale.
             </p>
             <p>
-              I started as a designer at Albanny Technologies, a tech agency, where I delivered
-              work across mental health, healthcare, e-commerce, and fintech. Clients consistently
-              bought into the work, and I finished with{" "}
-              <span className="text-[#fcda00]">100% client satisfaction</span>, with over{" "}
-              <span className="text-[#fcda00]">100k users</span> for their products. I then joined
-              Ndloo as founding designer and went on to lead the design team through to its{" "}
-              <span className="text-[#37fc00]">acquisition</span>. Most recently, I&apos;ve been
-              design lead at Quanvaulte, shaping a gamified tech learning platform for kids, while
-              also taking on freelance projects.
+              I started at <span className="font-['Instrument_Sans:Bold'] font-bold text-white">Albanny Technologies</span>, designing across multiple industries, before joining
+              Ndloo as a founding designer and leading the product design team through its{" "}
+              <span className="text-[#37fc00]">acquisition</span>. Since then, I&apos;ve worked on
+              products like <span className="font-['Instrument_Sans:Bold'] font-bold text-white">Paxi, Forfaitify, Webprebuilt, and Quanvaulte</span>, taking ideas from early
+              concepts to launch while also exploring AI-powered design and development tools.
             </p>
             <p>
-              Across these roles, I&apos;ve learned that good design isn&apos;t only what ships on
-              screen. It&apos;s the clarity that lets engineers build with confidence and lets
-              users move through complicated products without friction.
+              I believe good product design goes beyond polished screens. It&apos;s about solving
+              real user problems in ways that improve the experience, drive customer retention, unlock
+              revenue opportunities, and ultimately grow the business.
             </p>
           </div>
         </section>
@@ -484,14 +480,13 @@ export default function AboutMeSection() {
         <section data-node-id="226:174">
           <SectionLabel>Beyond the screen</SectionLabel>
           <p
-            className="mt-5 font-['Instrument_Sans:SemiBold'] text-[clamp(17px,1.6vw,24px)] font-semibold leading-[1.45]"
+            className="mt-5 font-['Instrument_Sans:Medium'] text-[15px] font-medium leading-[1.6] text-[#ffffff99]"
             style={fontWidth}
           >
-            I&apos;m a generalist at heart. I like knowing a little about a lot, connecting ideas
-            from unrelated places, and figuring out how things work. That curiosity shows up in
-            music, drawing, chess, and Arsenal matchdays, and increasingly in technology and
-            engineering, which I&apos;m going deeper into. At 2 a.m. I&apos;m usually down some
-            rabbit hole, trying to get better at something.
+            I&apos;m a generalist at heart, curious about how things work and always exploring new
+            ideas. Outside product design, I&apos;m into <span className="font-['Instrument_Sans:Bold'] font-bold text-white">music, economics chess, and Arsenal</span>. Lately,
+            I&apos;ve been diving deeper into AI, technology, and engineering, usually down a rabbit
+            hole trying to learn something new.
           </p>
         </section>
       </div>

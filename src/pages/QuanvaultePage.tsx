@@ -37,7 +37,7 @@ function useMobileLayout() {
   return isMobile;
 }
 
-function ScaledSection({ children, height }: { children: React.ReactNode; height: number }) {
+function ScaledSection({ children, height, gap = 120 }: { children: React.ReactNode; height: number; gap?: number }) {
   const [scale, setScale] = useState(1);
   const [isMobile, setIsMobile] = useState(() => window.innerWidth < 640);
   const [contentHeight, setContentHeight] = useState(height);
@@ -79,7 +79,7 @@ function ScaledSection({ children, height }: { children: React.ReactNode; height
   const effectiveHeight = contentHeight || height;
 
   return (
-    <div ref={containerRef} className="relative w-full overflow-hidden" style={{ height: effectiveHeight * scale }}>
+    <div ref={containerRef} className="relative w-full overflow-hidden" style={{ height: (effectiveHeight + gap) * scale }}>
       <div ref={contentRef} style={{ width: DESIGN_WIDTH, minHeight: height, zoom: scale }}>
         {children}
       </div>
@@ -185,7 +185,7 @@ export default function QuanvaultePage() {
 
           <div className="relative px-5 sm:px-8 lg:grid lg:grid-cols-[236px_minmax(0,1fr)] lg:items-start lg:gap-6 lg:pl-[120px] lg:pr-5">
             <CaseStudySidebar sections={QUANVAULTE_SECTIONS} />
-            <div className="flex min-w-0 flex-col gap-[40px] sm:gap-[80px]">
+            <div className="flex min-w-0 flex-col">
               {/* overview + problem + stat callout */}
               <section className="scroll-mt-24" id="quanvaulte-overview">
                 <ScaledSection height={570}>
